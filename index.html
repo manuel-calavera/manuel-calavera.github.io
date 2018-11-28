@@ -1,0 +1,534 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>API Reference</title>
+
+    <style>
+      .highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight .gh {
+  color: #999999;
+}
+.highlight .sr {
+  color: #f6aa11;
+}
+.highlight .go {
+  color: #888888;
+}
+.highlight .gp {
+  color: #555555;
+}
+.highlight .gs {
+}
+.highlight .gu {
+  color: #aaaaaa;
+}
+.highlight .nb {
+  color: #f6aa11;
+}
+.highlight .cm {
+  color: #75715e;
+}
+.highlight .cp {
+  color: #75715e;
+}
+.highlight .c1 {
+  color: #75715e;
+}
+.highlight .cs {
+  color: #75715e;
+}
+.highlight .c, .highlight .cd {
+  color: #75715e;
+}
+.highlight .err {
+  color: #960050;
+}
+.highlight .gr {
+  color: #960050;
+}
+.highlight .gt {
+  color: #960050;
+}
+.highlight .gd {
+  color: #49483e;
+}
+.highlight .gi {
+  color: #49483e;
+}
+.highlight .ge {
+  color: #49483e;
+}
+.highlight .kc {
+  color: #66d9ef;
+}
+.highlight .kd {
+  color: #66d9ef;
+}
+.highlight .kr {
+  color: #66d9ef;
+}
+.highlight .no {
+  color: #66d9ef;
+}
+.highlight .kt {
+  color: #66d9ef;
+}
+.highlight .mf {
+  color: #ae81ff;
+}
+.highlight .mh {
+  color: #ae81ff;
+}
+.highlight .il {
+  color: #ae81ff;
+}
+.highlight .mi {
+  color: #ae81ff;
+}
+.highlight .mo {
+  color: #ae81ff;
+}
+.highlight .m, .highlight .mb, .highlight .mx {
+  color: #ae81ff;
+}
+.highlight .sc {
+  color: #ae81ff;
+}
+.highlight .se {
+  color: #ae81ff;
+}
+.highlight .ss {
+  color: #ae81ff;
+}
+.highlight .sd {
+  color: #e6db74;
+}
+.highlight .s2 {
+  color: #e6db74;
+}
+.highlight .sb {
+  color: #e6db74;
+}
+.highlight .sh {
+  color: #e6db74;
+}
+.highlight .si {
+  color: #e6db74;
+}
+.highlight .sx {
+  color: #e6db74;
+}
+.highlight .s1 {
+  color: #e6db74;
+}
+.highlight .s {
+  color: #e6db74;
+}
+.highlight .na {
+  color: #a6e22e;
+}
+.highlight .nc {
+  color: #a6e22e;
+}
+.highlight .nd {
+  color: #a6e22e;
+}
+.highlight .ne {
+  color: #a6e22e;
+}
+.highlight .nf {
+  color: #a6e22e;
+}
+.highlight .vc {
+  color: #ffffff;
+}
+.highlight .nn {
+  color: #ffffff;
+}
+.highlight .nl {
+  color: #ffffff;
+}
+.highlight .ni {
+  color: #ffffff;
+}
+.highlight .bp {
+  color: #ffffff;
+}
+.highlight .vg {
+  color: #ffffff;
+}
+.highlight .vi {
+  color: #ffffff;
+}
+.highlight .nv {
+  color: #ffffff;
+}
+.highlight .w {
+  color: #ffffff;
+}
+.highlight {
+  color: #ffffff;
+}
+.highlight .n, .highlight .py, .highlight .nx {
+  color: #ffffff;
+}
+.highlight .ow {
+  color: #f92672;
+}
+.highlight .nt {
+  color: #f92672;
+}
+.highlight .k, .highlight .kv {
+  color: #f92672;
+}
+.highlight .kn {
+  color: #f92672;
+}
+.highlight .kp {
+  color: #f92672;
+}
+.highlight .o {
+  color: #f92672;
+}
+    </style>
+    <link href="stylesheets/screen.css" rel="stylesheet" media="screen" />
+    <link href="stylesheets/print.css" rel="stylesheet" media="print" />
+      <script src="javascripts/all.js"></script>
+  </head>
+
+  <body class="index" data-languages="[]">
+    <a href="#" id="nav-button">
+      <span>
+        NAV
+        <img src="images/navbar.png" alt="Navbar" />
+      </span>
+    </a>
+    <div class="toc-wrapper">
+      <img src="images/logo.png" class="logo" alt="Logo" />
+        <div class="search">
+          <input type="text" class="search" id="input-search" placeholder="Search">
+        </div>
+        <ul class="search-results"></ul>
+      <ul id="toc" class="toc-list-h1">
+          <li>
+            <a href="#introduction" class="toc-h1 toc-link" data-title="Introduction">Introduction</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#what-is-solana" class="toc-h2 toc-link" data-title="What is Solana?">What is Solana?</a>
+                  </li>
+                  <li>
+                    <a href="#about-this-book" class="toc-h2 toc-link" data-title="About this book">About this book</a>
+                  </li>
+                  <li>
+                    <a href="#history-of-the-solana-codebase" class="toc-h2 toc-link" data-title="History of the Solana codebase">History of the Solana codebase</a>
+                  </li>
+                  <li>
+                    <a href="#what-is-a-solana-cluster-and-why-would-one-use-it" class="toc-h2 toc-link" data-title="What is a Solana cluster and why would one use it?">What is a Solana cluster and why would one use it?</a>
+                  </li>
+                  <li>
+                    <a href="#what-are-sols" class="toc-h2 toc-link" data-title="What are sols?">What are sols?</a>
+                  </li>
+                  <li>
+                    <a href="#disclaimer" class="toc-h2 toc-link" data-title="Disclaimer">Disclaimer</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#terminology" class="toc-h1 toc-link" data-title="Terminology">Terminology</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#terminology-currently-in-use" class="toc-h2 toc-link" data-title="Terminology currently in use">Terminology currently in use</a>
+                  </li>
+                  <li>
+                    <a href="#terminology-reserved-for-future-use" class="toc-h2 toc-link" data-title="Terminology reserved for future use">Terminology reserved for future use</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#getting-started" class="toc-h1 toc-link" data-title="Getting started">Getting started</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#configuration-setup" class="toc-h2 toc-link" data-title="Configuration setup">Configuration setup</a>
+                  </li>
+                  <li>
+                    <a href="#drone" class="toc-h2 toc-link" data-title="Drone">Drone</a>
+                  </li>
+                  <li>
+                    <a href="#singlenode-testnet" class="toc-h2 toc-link" data-title="Singlenode Testnet">Singlenode Testnet</a>
+                  </li>
+                  <li>
+                    <a href="#multinode-testnet" class="toc-h2 toc-link" data-title="Multinode Testnet">Multinode Testnet</a>
+                  </li>
+                  <li>
+                    <a href="#testnet-client-demo" class="toc-h2 toc-link" data-title="Testnet Client Demo">Testnet Client Demo</a>
+                  </li>
+                  <li>
+                    <a href="#public-testnet" class="toc-h2 toc-link" data-title="Public Testnet">Public Testnet</a>
+                  </li>
+                  <li>
+                    <a href="#linux-snap" class="toc-h2 toc-link" data-title="Linux Snap">Linux Snap</a>
+                  </li>
+                  <li>
+                    <a href="#daemon-support" class="toc-h2 toc-link" data-title="Daemon support">Daemon support</a>
+                  </li>
+                  <li>
+                    <a href="#leader-daemon" class="toc-h2 toc-link" data-title="Leader daemon">Leader daemon</a>
+                  </li>
+                  <li>
+                    <a href="#validator-daemon" class="toc-h2 toc-link" data-title="Validator daemon">Validator daemon</a>
+                  </li>
+              </ul>
+          </li>
+      </ul>
+        <ul class="toc-footer">
+            <li><a href='https://solana.com'>Solana is scalable blockchain</a></li>
+        </ul>
+    </div>
+    <div class="page-wrapper">
+      <div class="dark-box"></div>
+      <div class="content">
+        <h1 id='introduction'>Introduction</h1>
+<p>Welcome to Solana knowledge base.</p>
+<h2 id='what-is-solana'>What is Solana?</h2>
+<p>Solana is the name of an open source project that is implementing a new high-performance, permissionless blockchain. Solana is also the name of a company headquartered in San Francisco that maintains the open source project.</p>
+<h2 id='about-this-book'>About this book</h2>
+<p>This book defines the architecture of Solana, a blockchain built from the ground up for scale. The goal of the architecture is to demonstrate there exists a set of software algorithms that in combination, removes software as a performance bottleneck, allowing transaction throughput to scale proportionally with network bandwidth. The architecture goes on to satisfy all three desirable properties of a proper blockchain: that it not only be scalable, but that it is also secure and decentralized.</p>
+
+<p>The architecture describes a theoretical upper bound of 710 thousand transactions per second (tps) on a standard gigabit network and 28.4 million tps on 40 gigabit. Furthermore, the architecture supports safe, concurrent execution of programs authored in general purpose programming languages such as C or Rust.</p>
+<h2 id='history-of-the-solana-codebase'>History of the Solana codebase</h2>
+<p>In November of 2017 Anatoly Yakovenko published a whitepaper describing Proof of History, a technique for keeping time between computers that do not trust one another. From Anatoly&#39;s previous experience designing distributed systems at Qualcomm, Mesosphere and Dropbox, he knew that a reliable clock makes network synchronization very simple. When synchronization is simple the resulting network can be blazing fast, bound only by network bandwidth.</p>
+
+<p>Anatoly watched as blockchain systems without clocks, such as Bitcoin and Ethereum, struggled to scale beyond 15 transactions per second worldwide when centralized payment systems such as Visa required peaks of 65,000. Without a clock, it was clear they&#39;d never graduate to being the global payment system or global supercomputer they had dreamed to be. When Anatoly solved the problem of getting computers that don’t trust each other to agree on time, he knew he had the key to bring 40 years of distributed systems research to the world of blockchain. The resulting cluster wouldn&#39;t be just 10 times faster, or a 100 times, or a 1,000 times, but 10,000 times faster right out of the gate!</p>
+
+<p>Anatoly&#39;s implementation began in a private codebase and was implemented in the C programming language. Greg Fitzgerald, who had previously worked with Anatoly at semiconductor giant Qualcomm Incorporated, encouraged him to reimplement the project in the Rust programming language. Greg had worked on the LLVM compiler infrastructure, which underlies both the Clang C/C++ compiler as well as the Rust compiler. Greg claimed that the language&#39;s safety guarantees would improve software productivity and that its lack of a garbage collector would allow programs to perform as well as those written in C. Anatoly gave it a shot and just two weeks later, had migrated his entire codebase to Rust. Sold. With plans to weave all the world&#39;s transactions together on a single, scalable blockchain, Anatoly called the project Loom.</p>
+
+<p>On February 13th of 2018, Greg began prototyping the first open source implementation of Anatoly&#39;s whitepaper. The project was published to GitHub under the name Silk in the loomprotocol organization. On February 28th, Greg made his first release, demonstrating 10 thousand signed transactions could be verified and processed in just over half a second. Shortly after, another former Qualcomm cohort, Stephen Akridge, demonstrated throughput could be massively improved by offloading signature verification to graphics processors. Anatoly recruited Greg, Stephen and three others to co-found a company, then called Loom.</p>
+
+<p>Around the same time, Ethereum-based project Loom Network sprung up and many people were confused if they were the same project. The Loom team decided it would rebrand. They chose the name Solana, a nod to a small beach town North of San Diego called Solana Beach, where Anatoly, Greg and Stephen lived and surfed for three years when they worked for Qualcomm. On March 28th, the team created the Solana Labs GitHub organization and renamed Greg&#39;s prototype Silk to Solana.</p>
+
+<p>In June of 2018, the team scaled up the technology to run on cloud-based networks and on July 19th, published a 50-node, permissioned, public testnet consistently supporting bursts of 250,000 transactions per second. In the most recent release, v0.10 Pillbox, the team published a permissioned testnet running 150 nodes on a gigabit network and demonstrated soak tests processing an average of 200 thousand transactions per second with bursts over 500 thousand. The project was also extended to support on-chain programs written in the C programming language and run concurrently in a safe execution environment called BPF. Next step: going permissionless.</p>
+<h2 id='what-is-a-solana-cluster-and-why-would-one-use-it'>What is a Solana cluster and why would one use it?</h2>
+<p>A cluster is a set of computers that work together and can be viewed from the outside as a single system. A Solana cluster is a set of independently owned computers working together (and sometimes against each other) to verify the output of untrusted, user-submitted programs. A Solana cluster can be utilized any time a user wants to preserve an immutable record of events in time or programmatic interpretations of those events. One use is to track which of the computers did meaningful work to keep the cluster running. Another use might be to track the possession of real-world assets. In each case, the cluster produces a record of events called the ledger. It will be preserved for the lifetime of the cluster. As long as someone somewhere in the world maintains a copy of the ledger, the output of its programs (which may contain a record of who possesses what) will forever be reproducible, independent of the organization that launched it.</p>
+<h2 id='what-are-sols'>What are sols?</h2>
+<p>A sol is the name of Solana&#39;s native token, which can be passed to nodes in a solana cluster in exchange for running an on-chain program or validating its output. The Solana protocol defines that only 1 billion sols will ever exist, but that the system may perform micropayments of fractional sols and that a sol may be split as many as 34 times. The fractional sol is called a lamport in honor of Solana&#39;s biggest technical influence, <a href="https://en.wikipedia.org/wiki/Leslie_Lamport">Leslie Lamport</a>. A lamport has a value of approximately 0.0000000000582 sol (2^-34).</p>
+<h2 id='disclaimer'>Disclaimer</h2>
+<p>All claims, content, designs, algorithms, estimates, roadmaps, specifications, and performance measurements described in this project are done with the author&#39;s best effort. It is up to the reader to check and validate their accuracy and truthfulness. Furthermore, nothing in this project constitutes a solicitation for investment.</p>
+<h1 id='terminology'>Terminology</h1><h2 id='terminology-currently-in-use'>Terminology currently in use</h2>
+<p>The following list contains words commonly used throughout the Solana architecture.</p>
+
+<ul>
+<li>account - a persistent file addressed by pubkey and with tokens tracking its lifetime</li>
+<li>cluster - a set of fullnodes maintaining a single ledger</li>
+<li>finality - the wallclock duration between a leader creating a tick entry and recoginizing a supermajority of validator votes with a ledger interpretation that matches the leader&#39;s</li>
+<li>fullnode - a full participant in the cluster - either a leader or validator node</li>
+<li>entry - an entry on the ledger - either a tick or a transactions entry</li>
+<li>instruction - the smallest unit of a program that a client can include in a transaction</li>
+<li>keypair - a public and secret key</li>
+<li>node count - the number of fullnodes participating in a cluster</li>
+<li>program - the code that interprets instructions</li>
+<li>pubkey - the public key of a keypair</li>
+<li>tick - a ledger entry that estimates wallclock duration</li>
+<li>tick height - the Nth tick in the ledger</li>
+<li>tps - transactions per second</li>
+<li>transaction - one or more instructions signed by the client and executed atomically</li>
+<li>transactions entry - a set of transactions that may be executed in parallel</li>
+</ul>
+<h2 id='terminology-reserved-for-future-use'>Terminology reserved for future use</h2>
+<p>The following keywords do not have any functionality but are reserved by Solana for potential future use.</p>
+
+<ul>
+<li>epoch - the time in which a leader schedule is valid</li>
+<li>mips - millions of instructions per second</li>
+<li>public key - We currently use pubkey</li>
+<li>slot - the time in which a single leader may produce entries</li>
+<li>secret key - Users currently only use keypair</li>
+</ul>
+<h1 id='getting-started'>Getting started</h1>
+<p>The Solana git repository contains all the scripts you might need to spin up your own local testnet. Depending on what you&#39;re looking to achieve, you may want to run a different variation, as the full-fledged, performance-enhanced multinode testnet is considerably more complex to set up than a Rust-only, singlenode testnode. If you are looking to develop high-level features, such as experimenting with smart contracts, save yourself some setup headaches and stick to the Rust-only singlenode demo. If you&#39;re doing performance optimization of the transaction pipeline, consider the enhanced singlenode demo. If you&#39;re doing consensus work, you&#39;ll need at least a Rust-only multinode demo. If you want to reproduce our TPS metrics, run the enhanced multinode demo.</p>
+
+<p>For all four variations, you&#39;d need the latest Rust toolchain and the Solana source code.</p>
+
+<blockquote>
+<p>Install Rust&#39;s package manager Cargo.</p>
+</blockquote>
+<pre class="highlight shell tab-shell"><code>curl https://sh.rustup.rs -sSf | sh
+<span class="nb">source</span> <span class="nv">$HOME</span>/.cargo/env
+</code></pre>
+<blockquote>
+<p>Now checkout the code from github.</p>
+</blockquote>
+<pre class="highlight shell tab-shell"><code>git clone https://github.com/solana-labs/solana.git
+<span class="nb">cd </span>solana
+</code></pre>
+<p>The demo code is sometimes broken between releases as we add new low-level features, so if this is your first time running the demo, you&#39;ll improve your odds of success if you check out the <a href="https://github.com/solana-labs/solana/releases">latest release</a> before proceeding.</p>
+<pre class="highlight shell tab-shell"><code><span class="nv">TAG</span><span class="o">=</span><span class="k">$(</span>git describe --tags <span class="k">$(</span>git rev-list --tags --max-count<span class="o">=</span>1<span class="k">))</span>
+git checkout <span class="nv">$TAG</span>
+</code></pre><h2 id='configuration-setup'>Configuration setup</h2>
+<p>The network is initialized with a genesis ledger and leader/validator configuration files. These files can be generated by running a script.</p>
+
+<blockquote>
+<p>Setup ledger and leader/validator configuration files.</p>
+</blockquote>
+<pre class="highlight shell tab-shell"><code>./multinode-demo/setup.sh
+</code></pre><h2 id='drone'>Drone</h2>
+<p>In order for the leader, client and validators to work, we&#39;ll need to spin up a drone to give out some test tokens. The drone delivers Milton Friedman-style &quot;air drops&quot; (free tokens to requesting clients) to be used in test transactions.</p>
+
+<blockquote>
+<p>Start the drone on the leader node.</p>
+</blockquote>
+<pre class="highlight shell tab-shell"><code>./multinode-demo/drone.sh
+</code></pre><h2 id='singlenode-testnet'>Singlenode Testnet</h2>
+<p>Before you start a fullnode, make sure you know the IP address of the machine you want to be the leader for the demo, and make sure that udp ports 8000-10000 are open on all the machines you want to test with.</p>
+
+<blockquote>
+<p>Start the server in a separate shell.</p>
+</blockquote>
+<pre class="highlight shell tab-shell"><code>./multinode-demo/leader.sh
+</code></pre>
+<p>Wait a few seconds for the server to initialize. It will print &quot;leader ready...&quot; when it&#39;s ready to receive transactions. The leader will request some tokens from the drone if it doesn&#39;t have any. The drone does not need to be running for subsequent leader starts.</p>
+<h2 id='multinode-testnet'>Multinode Testnet</h2>
+<p>To run a multinode testnet, after starting a leader node, spin up some validator nodes in separate shells.</p>
+
+<blockquote>
+<p>Start the server in a separate shell.</p>
+</blockquote>
+<pre class="highlight shell tab-shell"><code>./multinode-demo/validator.sh
+</code></pre>
+<p>To run a performance-enhanced leader or validator (on Linux), <a href="https://developer.nvidia.com/cuda-downloads">CUDA 10.0</a> must be installed on your system.</p>
+
+<blockquote>
+<p>Install CUDA environment.</p>
+</blockquote>
+<pre class="highlight shell tab-shell"><code>./fetch-perf-libs.sh
+<span class="nv">SOLANA_CUDA</span><span class="o">=</span>1 ./multinode-demo/leader.sh
+<span class="nv">SOLANA_CUDA</span><span class="o">=</span>1 ./multinode-demo/validator.sh
+</code></pre><h2 id='testnet-client-demo'>Testnet Client Demo</h2>
+<p>Now that your singlenode or multinode testnet is up and running let&#39;s send it some transactions! In a separate shell start the client.</p>
+
+<blockquote>
+<p>Start the client.</p>
+</blockquote>
+<pre class="highlight shell tab-shell"><code>./multinode-demo/client.sh <span class="c"># runs against localhost by default</span>
+</code></pre>
+<p>What just happened? The client demo spins up several threads to send 500,000 transactions to the testnet as quickly as it can. The client then pings the testnet periodically to see how many transactions it processed in that time. Take note that the demo intentionally floods the network with UDP packets, such that the network will almost certainly drop a bunch of them. This ensures the testnet has an opportunity to reach 710k TPS. The client demo completes after it has convinced itself the testnet won&#39;t process any additional transactions. You should see several TPS measurements printed to the screen. In the multinode variation, you&#39;ll see TPS measurements for each validator node as well.</p>
+<h2 id='public-testnet'>Public Testnet</h2>
+<p>In this example the client connects to our public testnet. To run validators on the testnet you would need to open udp ports 8000-10000.</p>
+
+<blockquote>
+<p>Run validators.</p>
+</blockquote>
+<pre class="highlight shell tab-shell"><code>./multinode-demo/client.sh --network <span class="k">$(</span>dig +short testnet.solana.com<span class="k">)</span>:8001 --identity config-private/client-id.json --duration 60
+</code></pre>
+<p>You can observe the effects of your client&#39;s transactions on our <a href="https://metrics.solana.com:3000/d/testnet/testnet-hud?orgId=2&amp;from=now-30m&amp;to=now&amp;refresh=5s&amp;var-testnet=testnet">dashboard</a>.</p>
+<h2 id='linux-snap'>Linux Snap</h2>
+<p>A Linux <a href="https://snapcraft.io/">Snap</a> is available, which can be used to easily get Solana running on supported Linux systems without building anything from source for evaluation. Note that CUDA is not supported by the Snap so performance will be limited.</p>
+
+<p>The <code>edge</code> Snap channel is updated daily with the latest development from the <code>master</code> branch.</p>
+
+<blockquote>
+<p>Install edge Snap channel.</p>
+</blockquote>
+<pre class="highlight shell tab-shell"><code>sudo snap install solana --edge --devmode
+</code></pre>
+<p>Once installed the usual Solana programs will be available as <code>solona.*</code> instead of <code>solana-*</code>. For example, <code>solana.fullnode</code> instead of <code>solana-fullnode</code>.</p>
+
+<blockquote>
+<p>Update to the latest version.</p>
+</blockquote>
+<pre class="highlight shell tab-shell"><code>snap info solana
+sudo snap refresh solana --devmode
+</code></pre><h2 id='daemon-support'>Daemon support</h2>
+<p>The snap supports running a leader, validator or leader+drone node as a system daemon.</p>
+
+<blockquote>
+<p>View the current daemon configuration:</p>
+</blockquote>
+<pre class="highlight shell tab-shell"><code>sudo snap get solana
+</code></pre>
+<blockquote>
+<p>Runtime configuration files for the daemon can be found in <code>/var/snap/solana/current/config</code>.</p>
+
+<p>View the daemon initialization log:</p>
+</blockquote>
+<pre class="highlight shell tab-shell"><code>sudo snap logs -n<span class="o">=</span>all solana
+</code></pre>
+<blockquote>
+<p>Depend on which <code>mode</code> was selected runtime logs can be found in next locations: </p>
+</blockquote>
+<pre class="highlight shell tab-shell"><code>/var/snap/solana/current/leader/
+/var/snap/solana/current/validator/ 
+/var/snap/solana/current/drone/ 
+</code></pre>
+<blockquote>
+<p>Within each log directory the file <code>current</code> contains the latest log, and the files <code>*.s</code> (if present) contain older rotated logs.</p>
+
+<p>Disable the daemon at any time by running:</p>
+</blockquote>
+<pre class="highlight shell tab-shell"><code>sudo snap <span class="nb">set </span>solana <span class="nv">mode</span><span class="o">=</span>
+</code></pre><h2 id='leader-daemon'>Leader daemon</h2>
+<blockquote>
+<p>Run leader daemon.</p>
+</blockquote>
+<pre class="highlight plaintext"><code>sudo snap set solana mode=leader
+</code></pre>
+<p><code>rsync</code> must be configured and running on the leader.</p>
+
+<blockquote>
+<p>Ensure <code>rsync</code> is installed.</p>
+</blockquote>
+<pre class="highlight shell tab-shell"><code>sudo apt-get -y install rsync
+</code></pre>
+<blockquote>
+<p>Edit <code>/etc/rsyncd.conf</code> to include the following:</p>
+</blockquote>
+<pre class="highlight shell tab-shell"><code><span class="o">[</span>config]
+path <span class="o">=</span> /var/snap/solana/current/config
+hosts allow <span class="o">=</span> <span class="k">*</span>
+<span class="nb">read </span>only <span class="o">=</span> <span class="nb">true</span>
+</code></pre>
+<blockquote>
+<p>Run systemd service:</p>
+</blockquote>
+<pre class="highlight shell tab-shell"><code>sudo systemctl <span class="nb">enable </span>rsync; sudo systemctl start rsync
+</code></pre>
+<blockquote>
+<p>Test by running next command from another machine: </p>
+</blockquote>
+<pre class="highlight shell tab-shell"><code>rsync -Pzravv rsync://&lt;ip-address-of-leader&gt;/config solana-config<span class="sb">```</span>
+</code></pre>
+<blockquote>
+<p>To run both the Leader and Drone:</p>
+</blockquote>
+<pre class="highlight shell tab-shell"><code>sudo snap <span class="nb">set </span>solana <span class="nv">mode</span><span class="o">=</span>leader+drone
+</code></pre>
+<aside class="notice">
+If the leader is running on a cloud provider it may be necessary to configure the Firewall rules to permit ingress to port <code>tcp:873</code>, <code>tcp:9900</code> and the port range <code>udp:8000-udp:10000</code>.
+</aside>
+<h2 id='validator-daemon'>Validator daemon</h2>
+<blockquote>
+<p>Run validator daemon.</p>
+</blockquote>
+<pre class="highlight plaintext"><code>sudo snap set solana mode=validator
+</code></pre>
+<p>By default the validator will connect to <code>testnet.solana.com</code>.</p>
+
+<blockquote>
+<p>To override the leader IP address do next (replace ip address with yours):</p>
+</blockquote>
+<pre class="highlight plaintext"><code>sudo snap set solana mode=validator leader-address=127.0.0.1
+</code></pre>
+<aside class="notice">
+It's assumed that the leader will be running rsync configured as described in the previous Leader daemon section.
+</aside>
+
+      </div>
+      <div class="dark-box">
+      </div>
+    </div>
+  </body>
+</html>
