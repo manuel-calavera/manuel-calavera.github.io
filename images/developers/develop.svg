@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="229px" height="274px" viewBox="0 0 229 274" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 16</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1" transform="translate(-213.000000, -2953.000000)">
+            <g id="Group-16" transform="translate(214.000000, 2954.000000)">
+                <path d="M187,39.1271029 L187,232 L0,232 L0,0 L147.994945,0 L187,39.1271029 Z" id="Combined-Shape" stroke="#FFFFFF"></path>
+                <g id="Group-42" transform="translate(10.000000, 10.000000)" stroke="#11D38F" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M187,39.1271029 L187,232 L0,232 L0,0 L147.994945,0 L187,39.1271029 Z" id="Combined-Shape-Copy-5"></path>
+                    <path d="M197,49.1271029 L197,242 L10,242 L10,10 L157.994945,10 L197,49.1271029 Z" id="Combined-Shape-Copy-6" opacity="0.311035156"></path>
+                    <path d="M207,59.1271029 L207,252 L20,252 L20,20 L167.994945,20 L207,59.1271029 Z" id="Combined-Shape-Copy-7" opacity="0.124441964"></path>
+                    <path d="M217,69.1271029 L217,262 L30,262 L30,30 L177.994945,30 L217,69.1271029 Z" id="Combined-Shape-Copy-8" opacity="0.07"></path>
+                </g>
+                <ellipse id="Oval" stroke="#000000" stroke-width="2" fill="#11D38F" stroke-linecap="round" stroke-linejoin="round" transform="translate(126.261044, 171.311024) scale(-1, 1) translate(-126.261044, -171.311024) " cx="126.261044" cy="171.311024" rx="35.7389558" ry="35.6889764"></ellipse>
+                <rect id="Rectangle" fill="#050505" transform="translate(144.500000, 172.000000) scale(-1, 1) translate(-144.500000, -172.000000) " x="127" y="137" width="35" height="70"></rect>
+                <rect id="Rectangle" fill="#050505" transform="translate(110.000000, 189.000000) scale(-1, 1) translate(-110.000000, -189.000000) " x="92" y="172" width="36" height="34"></rect>
+                <ellipse id="Oval-Copy" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" transform="translate(126.761044, 171.811024) scale(-1, 1) translate(-126.761044, -171.811024) " cx="126.761044" cy="171.811024" rx="35.2389558" ry="35.1889764"></ellipse>
+                <polygon id="Rectangle-Copy-6" fill="#FFFFFF" transform="translate(126.500000, 172.000000) scale(-1, 1) rotate(-270.000000) translate(-126.500000, -172.000000) " points="126 137 127 137 127 207 126 207"></polygon>
+                <rect id="Rectangle" fill="#FFFFFF" transform="translate(127.500000, 171.500000) scale(-1, 1) translate(-127.500000, -171.500000) " x="127" y="136" width="1" height="71"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" transform="translate(89.500000, 42.500000) scale(-1, 1) translate(-89.500000, -42.500000) " x="24" y="42" width="131" height="1"></rect>
+                <rect id="Rectangle-Copy-7" fill="#FFFFFF" transform="translate(89.500000, 57.933071) scale(-1, 1) translate(-89.500000, -57.933071) " x="24" y="57.4330709" width="131" height="1"></rect>
+                <rect id="Rectangle-Copy-8" fill="#FFFFFF" transform="translate(89.500000, 73.366142) scale(-1, 1) translate(-89.500000, -73.366142) " x="24" y="72.8661417" width="131" height="1"></rect>
+                <rect id="Rectangle-Copy-9" fill="#FFFFFF" transform="translate(89.500000, 88.799213) scale(-1, 1) translate(-89.500000, -88.799213) " x="24" y="88.2992126" width="131" height="1"></rect>
+                <rect id="Rectangle-Copy-10" fill="#FFFFFF" transform="translate(89.500000, 104.232283) scale(-1, 1) translate(-89.500000, -104.232283) " x="24" y="103.732283" width="131" height="1"></rect>
+                <polyline id="Path-8" stroke="#FFFFFF" transform="translate(51.960377, 184.172685) scale(-1, 1) translate(-51.960377, -184.172685) " points="24.3652344 194 44.0198635 174.345371 62.9567299 193.282237 79.5555188 176.683448"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

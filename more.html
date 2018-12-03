@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1.0">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Solana: A new architecture for a high-performance blockchain">
+    <meta property="og:description" content="Up to 710,000 transactions per second on a 1 gigabit network without data partitioning.">
+    <meta property="og:image" content="Preview.png">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Solana</title>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__inner">
+        <div class="logo"><img src="./images/logo.svg" alt="Solana"></div>
+        <nav class="main-menu" id="menu">
+          <ul class="main-menu__list">
+            <li class="main-menu__item"><a class="main-menu__link" href="/">Home</a></li>
+            <li class="main-menu__item"><a class="main-menu__link" href="developers.html">Developers</a></li>
+            <li class="main-menu__item"><a class="main-menu__link active" href="more.html">Learn More</a></li>
+            <li class="main-menu__item"><a class="main-menu__link" href="community.html">Community</a></li>
+            <li class="main-menu__item"><a class="main-menu__link" href="careers.html">Careers</a></li>
+            <li class="main-menu__item"><a class="main-menu__link" href="https://solana.com/solana-whitepaper.pdf">Whitepaper</a></li>
+          </ul>
+        </nav>
+        <div class="menu-btn" id="menuBtn">
+          <div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="main">
+      <div class="container">
+        <div class="slider">
+          <h1 class="h1">Why Solana is great?</h1>
+          <div class="slider-nav" id="sliderNav"><a class="active" data-slide="0">Time as Data</a><a data-slide="1">Scalable Finality</a><a data-slide="2">No Sharding</a><a data-slide="3">Smart Contracts</a></div>
+          <div class="siema">
+            <div class="slide">
+              <div class="left"><img src="./images/more/hero/slide1.png" srcset="./images/more/hero/slide1@2x.png 2x" alt="" width="504"></div>
+              <div class="right">
+                <h3 class="h3">Proof of History: The Key to Speed</h3>
+                <p class="text">Similar to Google’s TrueTime, which relies on synchronized atomic clocks for a trusted source of time and ordering, Solana has created a cryptographically secure and trustless time source — and built a blockchain around it. We call it Proof of History.</p>
+                <p class="text">By weaving this standardized timestamp into the blockchain, nodes in the network can verify the time and order of events without witnessing them directly. This drastically reduces messaging overhead and is one example of the many optimization capabilities that become available through Solana’s Proof of History.</p>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="left"><img src="./images/more/hero/slide2.png" srcset="./images/more/hero/slide2@2x.png 2x" alt="" width="504"></div>
+              <div class="right">
+                <h3 class="h3">Sub-second finality that actually scales</h3>
+                <p class="text">Decentralized blockchain solutions have a scaling problem. In addition to low transaction rates, maintaining quick finality while the network scales is a major problem and many current solutions compromise decentralisation.</p>
+                <p class="text">Through Solana’s “Avalanche” network communication innovation, finality times reduce exponentially as the network grows. This means we can expect ~500ms finality up through 10s of thousands of nodes and beyond.</p>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="left"><img src="./images/more/hero/slide3.png" srcset="./images/more/hero/slide3@2x.png 2x" alt="" width="504"></div>
+              <div class="right">
+                <h3 class="h3">Finally, scaling without sharding</h3>
+                <p class="text">Solana’s approach takes existing blockchain architecture and algorithms and improves on them instead of overlaying additional complexities such as sharding which can compromise security. We believe the right solution is a simple solution.</p>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="left"><img src="./images/more/hero/slide4.png" srcset="./images/more/hero/slide4@2x.png 2x" alt="" width="504"></div>
+              <div class="right">
+                <h3 class="h3">Scalable smart contracts in any language</h3>
+                <p class="text">The development community is our top priority. We intend to be the go-to network for developers who want to build decentralised applications of any kind. With Solana, you can write smart contracts in almost any language. We leverage Berkeley Packet Filter, allowing any language that LLVM supports to be utilized.</p>
+                <p class="text">In addition, the smart contracts engine runs on GPUs. The future is massively parallel, and GPU cores are doubling every 2 years. Today a 5 thousand dollar machine will simultaneously execute 14,000 smart contracts. In two years 28,000. This is why in 10 years solana will be the first blockchain to process a billion transactions per second.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="features">
+        <div class="container">
+          <div class="features__title" id="use-cases">Use Cases</div>
+          <div class="features__list">
+            <div class="feature">
+              <div class="feature__img"><img src="./images/more/cases/case1.svg" alt="" width="277"></div>
+              <div class="feature__title">Decentralized exchanges</div>
+              <div class="feature__desc">Imagine a decentralized trading system that never touches user's private keys. The entire order book is securely included in the blockchain replicated state while retaining all the performance characteristics of Nasdaq. At 710k tps, Solana can fit Nasdaq's volumes with room to spare. We enable this using atomic cross chain transactions combined with tradable swaps.</div>
+            </div>
+            <div class="feature">
+              <div class="feature__img"><img src="./images/more/cases/case2.svg" alt="" width="188"></div>
+              <div class="feature__title">Payments</div>
+              <div class="feature__desc">Payments are the holy grail of blockchain, but adoption and scalability are inevitable hurdles. Solana's transaction costs are to be on the order of $0.000001 and lightning fast. Bitcoin's throughput, at 3 payments per day per person, is only enough to service the population of Berkeley, California. We can do better. Solana lays the foundation for the payments platform that blockchain has always promised.</div>
+            </div>
+            <div class="feature">
+              <div class="feature__img"><img src="./images/more/cases/case3.svg" width="260" alt=""></div>
+              <div class="feature__title">Distributed Web Services and Storage</div>
+              <div class="feature__desc">The future of cloud storage and web services can be decentralized, encrypted, permissionless, and secure. Decentralized file storage systems have the potential to eliminate high markup and human capital costs, and set new standards of unit economics for distributed data storage. Solana provides a scalable path for this future to become a reality.</div>
+            </div>
+            <div class="feature">
+              <div class="feature__img"><img src="./images/more/cases/case4.svg" alt="" width="266"></div>
+              <div class="feature__title">Distributed Ad Exchanges</div>
+              <div class="feature__desc">If ads are traded on a single, transparent platform, all sorts of ancillary data-driven industries can sprout up: tracking and measurement, rating, and industry reporting. These business models would require nodes to keep much more extensive ledgers than just day-of transactions. At the same time so we need a highly scalable chain to support this future of ad tech (Google serves up 340,000 ads per second). What distributed solutions are there that can support high speed on-chain data collection? You guessed it, this is where Solana’s high throughput blockchain shines.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="team" id="team">
+          <div class="team__header"><span>Our team</span>
+            <div class="team__nav">
+              <div class="swiper-button-prev" id="teamPrev"></div>
+              <div class="swiper-button-next" id="teamNext"></div>
+            </div>
+          </div>
+          <div class="swiper-container" id="teamSlider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="member">
+                  <div class="member__avatar"><img src="./images/more/team/team1.jpg" alt="Anatoly Yakovenko" width="393"></div>
+                  <div class="member__desc">
+                    <div class="member__name">Anatoly Yakovenko</div>
+                    <div class="member__position">CEO</div>
+                    <p class="text">Anatoly is the creator of Solana. He led development of operating systems at Qualcomm, distributed systems at Mesosphere, and compression at Dropbox. He holds 2 patents for high performance Operating Systems protocols, was a core kernel developer for BREW which powered every CDMA flip phone (100m+ devices), and led development of tech that made Project Tango (VR/AR) possible on Qualcomm phones.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="member">
+                  <div class="member__avatar"><img src="./images/team1.jpg" alt="Greg Fitzgerald" width="393"></div>
+                  <div class="member__desc">
+                    <div class="member__name">Greg Fitzgerald</div>
+                    <div class="member__position">CTO</div>
+                    <p class="text">Greg is the principal architect of Solana. Formerly of Qualcomm's Office of the Chief Scientist, Greg has explored the full landscape of embedded systems. He created an bidirectional RPC bridge between C and Lua for the BREW operating system, helped launch the ARM backend for the LLVM compiler toolchain, and published a variety of open source projects including a streaming LLVM optimizer in Haskell, license analysis tooling in Python, and a reactive web framework in TypeScript. If you have time to burn, ask him "Why Rust?" We dare you.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="member">
+                  <div class="member__avatar"><img src="./images/team1.jpg" alt="Raj Gokal" width="393"></div>
+                  <div class="member__desc">
+                    <div class="member__name">Raj Gokal</div>
+                    <div class="member__position">COO</div>
+                    <p class="text">Raj leads operations, product, and finance. He has spent 10 years in product management and finance. He was a venture investor at General Catalyst, started the consumer medical device company Sano which attracted over $20m in investment, and led product management at Omada Health as it grew tenfold.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="member">
+                  <div class="member__avatar"><img src="./images/team1.jpg" alt="Eric Williams, PhD" width="393"></div>
+                  <div class="member__desc">
+                    <div class="member__name">Eric Williams, PhD</div>
+                    <div class="member__position">Chief Scientist</div>
+                    <p class="text">Eric heads data science and token economics. He studied particle physics at Berkeley and received his PhD from Columbia while Higgs hunting at CERN. He completed a postdoc in Medical Physics at Memorial Sloan Kettering Cancer Center and later led data science at Omada Health.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="member">
+                  <div class="member__avatar"><img src="./images/team1.jpg" alt="Hsin-Ju Chuang" width="393"></div>
+                  <div class="member__desc">
+                    <div class="member__name">Hsin-Ju Chuang</div>
+                    <div class="member__position">Head of Growth</div>
+                    <p class="text">Hsin-Ju heads growth and community. She was formerly the Head of Growth at Stellar. She advises several blockchain companies, and started her career building the customer base at MindTouch, an enterprise software company.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="member">
+                  <div class="member__avatar"><img src="./images/team1.jpg" alt="Stephen Akridge" width="393"></div>
+                  <div class="member__desc">
+                    <div class="member__name">Stephen Akridge</div>
+                    <div class="member__position">Principal Engineer</div>
+                    <p class="text">Stephen spends all his time in the codebase. He has 10 years of critical GPU optimization expertise at Qualcomm and Intel. He led the GPU backend that constantly beat Nvidia.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="member">
+                  <div class="member__avatar"><img src="./images/team1.jpg" alt="Michael Vines" width="393"></div>
+                  <div class="member__desc">
+                    <div class="member__name">Michael Vines</div>
+                    <div class="member__position">Principal Engineer</div>
+                    <p class="text">Michael spent 14 years at Qualcomm, rapidly rising from Engineer to Senior Director. He was founder and VP of Engineering of AI startup Silk Labs. He uses foot pedals when coding. Michael holds 3 patents.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="member">
+                  <div class="member__avatar"><img src="./images/team1.jpg" alt="Rob Walker" width="393"></div>
+                  <div class="member__desc">
+                    <div class="member__name">Rob Walker</div>
+                    <div class="member__position">Principal Engineer</div>
+                    <p class="text">Rob has a storied career, innovating in software from the 1990's at Netscape, through a 17 year career at Qualcomm leading teams spanning BREW, Component Services, DASH, and Snapdragon.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="member">
+                  <div class="member__avatar"><img src="./images/team1.jpg" alt="Jeff Levy" width="393"></div>
+                  <div class="member__desc">
+                    <div class="member__name">Jeff Levy</div>
+                    <div class="member__position">Operations</div>
+                    <p class="text">Jeff handles operations and finance. He was previously VP of Operations at Aclima, after founding and selling CareAtHand. Previously, he had ops roles at Twitter and Google.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="member">
+                  <div class="member__avatar"><img src="./images/team1.jpg" alt="Pankaj Garg" width="393"></div>
+                  <div class="member__desc">
+                    <div class="member__name">Pankaj Garg</div>
+                    <div class="member__position">Senior Staff Engineer</div>
+                    <p class="text">Pankaj joins us after 10 years at Qualcomm, where he worked in the Innovation Center. Previously he led design and development of the LTE modem chipset for mobile devices at Motorola.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="member">
+                  <div class="member__avatar"><img src="./images/team1.jpg" alt="Jack May" width="393"></div>
+                  <div class="member__desc">
+                    <div class="member__name">Jack May</div>
+                    <div class="member__position">Senior Staff Engineer</div>
+                    <p class="text">Jack joins us after 17 years at Qualcomm where he's had his hands in many areas, starting with BREW kernel and CDMA development, to developing for and leading teams in Qualcomm's Advanced Tech Department.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="member">
+                  <div class="member__avatar"><img src="./images/team1.jpg" alt="Tyera Eulberg" width="393"></div>
+                  <div class="member__desc">
+                    <div class="member__name">Tyera Eulberg</div>
+                    <div class="member__position">Senior Engineer</div>
+                    <p class="text">Tyera has spent close to 10 years as a developer, most recently at PS Audio International, where she wrote software from the physical to application layer for audio products.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="member">
+                  <div class="member__avatar"><img src="./images/team1.jpg" alt="Dominic" width="393"></div>
+                  <div class="member__desc">
+                    <div class="member__name">Dominic</div>
+                    <div class="member__position">Community and BD</div>
+                    <p class="text">Dom was an early contributor to our Telegram channel and has experience advising blockchain funds as well as managing communities for several open source blockchain projects. He has extensive experience as a project manager.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="member">
+                  <div class="member__avatar"><img src="./images/team1.jpg" alt="Carl Lin" width="393"></div>
+                  <div class="member__desc">
+                    <div class="member__name">Carl Lin</div>
+                    <div class="member__position">Senior Engineer</div>
+                    <p class="text">Carl graduated from Carnegie Mellon with a degree in Computer Science and spent years at Microsoft. Carl has advised and worked with blockchain-focused hedge funds and was an early contributor to Solana's open source codebase.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="member">
+                  <div class="member__avatar"><img src="./images/team1.jpg" alt="Sagar Dhawan" width="393"></div>
+                  <div class="member__desc">
+                    <div class="member__name">Sagar Dhawan</div>
+                    <div class="member__position">Staff Engineer</div>
+                    <p class="text">Sagar joins us after 4.5 years at Qualcomm's Innovation Center. He has worked on an open source Chromium browser fork and later designed and implemented products in Android for mobile security. He has a degree in Computer Engineering from the University of Illinois at Urbana-Champaign like some of our founders.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="roadmap">
+          <div class="roadmap__title">Our roadmap</div>
+          <div class="roadmap__graph"><img src="../images/more/roadmap.svg" alt="">
+            <ul>
+              <li><span>November 2017</span><span>Whitepaper published</span></li>
+              <li><span>February 2018</span><span>Single node testnet</span></li>
+              <li><span>June 2018</span><span>Multinode testnet</span></li>
+              <li><span>July 2018</span><span>Public testnet alpha</span></li>
+              <li><span>September 2018</span><span>Payments SDK</span></li>
+              <li><span>Q4 2018</span><span>Public testnet alpha</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="faq">
+          <div class="faq__inner">
+            <h3 class="h3">Frequently Asked Questions</h3>
+            <div class="faq__nav" id="faqNav"><a class="active" data-go="0">General</a><a data-go="1">Status</a><a data-go="2">Technical</a><a data-go="3">Proof of History</a></div>
+            <div class="faqTabs">
+              <div class="faq-tab">
+                <ul class="faq__list js-accordion">
+                  <li class="faq__item js-accordion-item">
+                    <div class="faq__title"><span>What’s the TL;DR of the whitepaper?</span></div>
+                    <div class="faq__text js-accordion-text">
+                      <p>We are building a new blockchain protocol that’s based on encoding passage of time as data. We call this Proof of History (PoH). Solana is creating a trustless, distributed, cryptographic protocol to create a reliable ordering of events, which solves for many of the existing scalability problems that other blockchain protocols face.</p>
+                      <p>Our solution is built to make transaction processing independent of consensus. Additionally, this is a high-throughput blockchain that doesn’t rely on shards, partitions, side chains, multi chains, etc. As a result of this new system architecture, Solana’s new PoH blockchain will allow up to 710,000 transactions per second on a 1 gigabit network.</p>
+                    </div>
+                  </li>
+                  <li class="faq__item js-accordion-item">
+                    <div class="faq__title"><span>What makes this scalable?</span></div>
+                    <div class="faq__text js-accordion-text">
+                      <p>For many distributed networks, the time to finality (the guarantee that past transactions on a digital ledger are legitimate and will not change) scales as the square or even the cube of the number of nodes in the system. Because of our Proof of History (PoH) implementation and our Avalanche communication design, Solana blockchain’s time to finality scales with the logarithm of the number of nodes. What does this mean? A high throughput network, with tens of thousands of nodes, that retains sub-second finality times.</p>
+                    </div>
+                  </li>
+                  <li class="faq__item js-accordion-item">
+                    <div class="faq__title"><span>What's Proof of Replication and what is it's role in Solana's blockchain?</span></div>
+                    <div class="faq__text js-accordion-text">
+                      <p>Proof of Replication (PoRep) is a proof of storage protocol. And in our blockchain, it’s used for increasing availability, making it unnecessary for all nodes in the entire network to store the full ledger. It achieves this by ensuring that each bit of data has been replicated to it’s own uniquely dedicated physical storage node(s). In practical terms, it essentially allows the network to prove that a node you don’t trust is using its resources to store a segment of the ledger. This generates a torrent like network, where no single node is holding the full ledger, but a copy is always available on demand.</p>
+                    </div>
+                  </li>
+                  <li class="faq__item js-accordion-item">
+                    <div class="faq__title"><span>What’s Avalanche, and what does it do?</span></div>
+                    <div class="faq__text js-accordion-text">
+                      <p>Avalanche is a method of organising the network data flow. The generator (leader) is at the top of the pyramid, with validators at each level below it. And for every additional level below the generator, the number of validators doubles.</p>
+                      <p>This enables Solana to scale their finality times logarithmically or log(n), where ‘n’ is the number of nodes. Typically, finality times on traditional gossip protocols scale at n squared, which means the finality times suffer exponentially as nodes increase on the network. However with Avalanche, the opposite occurs on Solana, thus supporting greater decentralization of nodes, while maintaining sub-second finality times.</p>
+                    </div>
+                  </li>
+                  <li class="faq__item js-accordion-item">
+                    <div class="faq__title"><span>Was Solana previously Loom Protocol? Why the name change to Solana?</span></div>
+                    <div class="faq__text js-accordion-text">
+                      <p>Indeed, Solana was previously known as Loom Protocol. Due to other projects having similar names, the project team decided to change its name to Solana.</p>
+                      <p>The name Solana is inspired by a beach town in Northern San Diego county where the CEO and the Co-Founders lived and surfed for 5 years.</p>
+                    </div>
+                  </li>
+                  <li class="faq__item js-accordion-item">
+                    <div class="faq__title"><span>What’s Solana's Consensus mechanism?</span></div>
+                    <div class="faq__text js-accordion-text">
+                      <p>Solana uses Proof of Stake (PoS) as its consensus mechanism. Solana does innovate on the consensus layer--our approach to better scalability is adding a sense of time to a permissionless network. Read about our PoH protocol here.</p>
+                    </div>
+                  </li>
+                  <li class="faq__item js-accordion-item">
+                    <div class="faq__title"><span>Is Solana a permissioned or permissionless network?</span></div>
+                    <div class="faq__text js-accordion-text">
+                      <p>Solana is a permissionless network.</p>
+                    </div>
+                  </li>
+                  <li class="faq__item js-accordion-item">
+                    <div class="faq__title"><span>What are some of the main use cases of Solana?</span></div>
+                    <div class="faq__text js-accordion-text">
+                      <p>Given the high transaction throughput of Solana, which is comparable to the amount of transactions that NASDAQ completes per second, we believe Solana will be capable of powering the next generation of decentralised exchanges, prediction markets, payment platforms, etc. However, that’s not to say that other dApps won’t be suitable for Solana. The aim of the project is to be a dApp platform that can support a broad range of use cases beyond those mentioned above.</p>
+                    </div>
+                  </li>
+                  <li class="faq__item js-accordion-item">
+                    <div class="faq__title"><span>What smart contract languages will Solana support?</span></div>
+                    <div class="faq__text js-accordion-text">
+                      <p>Solana will be built with a LLVM front end, which will mean that any language supported by LLVM will be available to developers. The full suite of supported languages will be rolled out progressively, starting with Solidity and Javascript.</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="faq-tab">
+                <ul class="faq__list js-accordion">
+                  <li class="faq__item js-accordion-item">
+                    <div class="faq__title"><span>How far along are you?</span></div>
+                    <div class="faq__text js-accordion-text">
+                      <p>Our development is in full swing, our whitepaper has been validated by multiple parties, and feedback is always welcome. Join our Telegram or contact us for the latest</p>
+                      <p>As of early May, Solana is at single node testnet v0.5.0. We achieved 250,000 transactions per second. This is a 700% increase over the previous version, which was at 35,000 transactions per second. During this version of the testnet we peaked at 400,000 transactions. These results were achievable partly because of Stephen Akridge’s GPU implementation, which enables 870,000 signature verifications per second.</p>
+                      <p>The next milestone for the project is to set up a multinode testnet. We expect to share an update in June.</p>
+                      <p>If you’d like to stay up to date on the team’s progress feel free to review our Github under the releases section. Or feel free to join us on Telegram to speak directly with the team.</p>
+                    </div>
+                  </li>
+                  <li class="faq__item js-accordion-item">
+                    <div class="faq__title"><span>Does the Solana team need help with development?</span></div>
+                    <div class="faq__text js-accordion-text">
+                      <p>Yes. Do you know Cuda or Rust? Or are you familiar with wallet integrations? Or is there something else you’re excited about helping with after reading our whitepaper and checking out our github? Check out our Careers page or get in touch via Telegram or email.</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="faq-tab">
+                <ul class="faq__list js-accordion">
+                  <li class="faq__item js-accordion-item">
+                    <div class="faq__title"><span>What’s your technology stack?</span></div>
+                    <div class="faq__text js-accordion-text">
+                      <p>We use Cuda, Rust. The primary reason for this is because there is no garbage collector. And the compiler manages memory for you. This is critical because to interface with the GPU we need to access the memory directly without overhead. All the other garbage collection languages typically have high overheads.</p>
+                    </div>
+                  </li>
+                  <li class="faq__item js-accordion-item">
+                    <div class="faq__title"><span>How do you prevent a DDoS of the PoRep nodes?</span></div>
+                    <div class="faq__text js-accordion-text">
+                      <p>PoRep is replicating the ledger, not the state (this is the Spool). You still need to pay message fees so you can’t DoS everything, but you can create many accounts with little value in each. We might end up pushing things to disk if they are stale or small.</p>
+                    </div>
+                  </li>
+                  <li class="faq__item js-accordion-item">
+                    <div class="faq__title"><span>Within the whitepaper, it’s stated that the overall packet size ranges from 132 to 176 bytes. How does Solana achieve this data density?</span></div>
+                    <div class="faq__text js-accordion-text">
+                      <p>The smallest packet size as outlined within the whitepaper is made up of the following elements:</p>
+                      <p>
+                        20 byte (160 bit) last valid hash counter (ripemd of the sha)
+                        8 byte counter
+                        2 byte flags and payload size
+                        20 byte to address (ripemd(sha256(public key)))
+                        8 byte amount
+                        8 byte fee
+                        32 byte public key used to sign
+                        64 byte signature
+                      </p>
+                      <p>The sum of all of that is: 20 + 8 + 2 + 20 + 8 + 8 + 32 + 64 = 162 bytes.</p>
+                      <p>In theory, the packet size could be reduced even further by keeping the amounts dynamically sized based on flags and dropping the counters. However, the gains are minimal, and would only serve to increase the format complexity.</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="faq-tab">
+                <ul class="faq__list js-accordion">
+                  <li class="faq__item js-accordion-item">
+                    <div class="faq__title"><span>FAQs coming soon</span></div>
+                    <div class="faq__text js-accordion-text">
+                      <p>For more on Proof of History, check out our articles on Medium.</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container"><img class="footer__logo" src="./images/logo.svg" alt="Solana">
+        <div class="footer__inner">
+          <div class="footer__menu">
+            <div class="col"><a href="/">Home</a><a href="developers.html">Developers</a><a href="more.html">Learn More</a><a href="community.html">Community</a><a href="careers.html">Careers</a><a href="https://solana.com/solana-whitepaper.pdf">Whitepaper</a><a href="mailto:hello@solana.com">Contact Us</a></div>
+            <div class="col"><a href="https://t.me/solanaio">Telegram</a><a href="https://reddit.com/r/solana">Reddit</a><a href="https://twitter.com/solanalabs">Twitter</a><a href="https://medium.com/solana-labs">Medium</a><a href="https://github.com/solana-labs">Github</a><a href="https://www.youtube.com/channel/UC9AdQPUe4BdVJ8M9X7wxHUA">Youtube</a></div>
+          </div>
+          <div class="footer__desc">
+            <div class="footer__title">Website disclaimer</div>
+            <p>Nothing in this website is an offer to sell, or the solicitation of an offer to buy, any tokens. Solana is publishing this website solely to receive feedback and comments from the public. If and when Solana offers for sale any tokens (or a Simple Agreement for Future Tokens), it will do so through definitive offering documents, including a disclosure document and risk factors. Those definitive documents also are expected to include an updated version of this website, which may differ significantly from the current version. If and when Solana makes such an offering in the United States, the offering likely will be available solely to accredited investors.</p>
+            <p>Nothing in this website should be treated or read as a guarantee or promise of how Solana's business or the tokens will develop or of the utility or value of the tokens. This website outlines current plans, which could change at its discretion, and the success of which will depend on many factors outside Solana's control, including market-based factors and factors within the data and cryptocurrency industries, among others. Any statements about future events are based solely on Solana's analysis of the issues described in this website. That analysis may prove to be incorrect.</p>
+            <div class="copyright">© Copyright Solana Labs, Inc. All rights reserved.</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

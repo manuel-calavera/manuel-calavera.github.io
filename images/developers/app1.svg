@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="154px" height="155px" viewBox="0 0 154 155" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 26</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1" transform="translate(-59.000000, -2214.000000)">
+            <g id="Group-26" transform="translate(60.000000, 2215.000000)">
+                <g id="Group-22" transform="translate(5.000000, 5.000000)" stroke="#11D38F" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M98.9878067,0 L130,31.0121933 L130,130 L0,130 L0,0 L98.9878067,0 Z" id="Combined-Shape-Copy"></path>
+                    <path d="M103.987807,6 L135,37.0121933 L135,136 L5,136 L5,6 L103.987807,6 Z" id="Combined-Shape-Copy-2" opacity="0.311035156"></path>
+                    <path d="M109.987807,12 L141,43.0121933 L141,142 L11,142 L11,12 L109.987807,12 Z" id="Combined-Shape-Copy-3" opacity="0.124441964"></path>
+                    <path d="M115.987807,18 L147,49.0121933 L147,148 L17,148 L17,18 L115.987807,18 Z" id="Combined-Shape-Copy-4" opacity="0.07"></path>
+                </g>
+                <path d="M98.9878067,0 L130,31.0121933 L130,130 L0,130 L0,0 L98.9878067,0 Z" id="Combined-Shape" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+                <g id="Group-20" transform="translate(30.000000, 32.000000)" stroke="#FFFFFF">
+                    <g id="Group-31" transform="translate(0.000000, 38.000000)">
+                        <path d="M14.5,-3 L14.5,30.6878906" id="Path-2" transform="translate(14.500000, 14.000000) rotate(-315.000000) translate(-14.500000, -14.000000) "></path>
+                        <path d="M13.5,-3 L13.5,30.6878906" id="Path-2" transform="translate(13.500000, 14.000000) scale(-1, 1) rotate(-315.000000) translate(-13.500000, -14.000000) "></path>
+                    </g>
+                    <circle id="Oval" cx="55.5" cy="52.5" r="14.5"></circle>
+                    <path d="M52.5,-3 L52.5,30.6878906" id="Path-2" transform="translate(52.500000, 14.000000) rotate(-315.000000) translate(-52.500000, -14.000000) "></path>
+                    <circle id="Oval" cx="18.5" cy="14.5" r="14.5"></circle>
+                    <path d="M52.5,-3 L52.5,30.6878906" id="Path-2" transform="translate(52.500000, 14.000000) scale(-1, 1) rotate(-315.000000) translate(-52.500000, -14.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
