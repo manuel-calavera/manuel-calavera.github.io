@@ -22,10 +22,12 @@
           <ul class="main-menu__list">
             <li class="main-menu__item"><a class="main-menu__link active" href="/">Home</a></li>
             <li class="main-menu__item"><a class="main-menu__link" href="developers.html">Developers</a></li>
-            <li class="main-menu__item"><a class="main-menu__link" href="more.html">Learn More</a></li>
+            <li class="main-menu__item"><a class="main-menu__link" href="presale.html">Presale</a></li>
+            <li class="main-menu__item"><a class="main-menu__link" href="miners.html">Mining</a></li>
+            <li class="main-menu__item"><a class="main-menu__link" href="https://solana.com/solana-whitepaper.pdf">Whitepaper</a></li>
             <li class="main-menu__item"><a class="main-menu__link" href="community.html">Community</a></li>
             <li class="main-menu__item"><a class="main-menu__link" href="careers.html">Careers</a></li>
-            <li class="main-menu__item"><a class="main-menu__link" href="https://solana.com/solana-whitepaper.pdf">Whitepaper</a></li>
+            <li class="main-menu__item"><a class="main-menu__btn" href="#"><span>Join our telegram</span></a></li>
           </ul>
         </nav>
         <div class="menu-btn" id="menuBtn">
@@ -40,66 +42,452 @@
         <div class="container">
           <div class="hero__inner">
             <div class="hero__left">
-              <h1 class="h1">Blockchain Rebuild For Scale</h1>
+              <h1 class="h1">Blockchain rebuild for scale</h1>
               <p class="text">710,000 tx/s with off-the-shelf hardware and no sharding. Scales with Moore's Law.</p>
-              <div class="flex"><a class="btn btn_white" href="https://solana.com/solana-whitepaper.pdf"><span>Read the whitepaper</span></a><a class="link link_white" href="https://t.me/solanaio">Join our telegram</a></div>
+              <div class="flex"><a class="btn btn_white btn_lg" href="https://solana.com/solana-whitepaper.pdf"><span>Read the whitepaper</span></a><a class="link link_white" href="https://t.me/solanaio">Join our telegram</a></div>
             </div>
             <div class="hero__right">
-              <video src="./videos/1.mp4" autoplay loop muted></video>
+              <video src="./videos/2.mp4" autoplay loop muted></video>
             </div>
           </div>
         </div>
       </div>
-      <section class="section contribute">
-        <div class="container">
+      <div class="container">
+        <section class="section">
           <div class="section__inner">
-            <div class="left">
-              <h2 class="h2">Contribute to the world's fastest blockchain tech</h2>
-              <p class="text grey">Solana allows you to build highly scalable Dapps with a full suite of modern developer tools. Join us to make a scalable blockchain future a reality.</p>
-              <div class="flex"><a class="btn" href="developer.html"> Become Developer</a><a class="btn btn_grey" href="more.html#use-cases">Learn Use Cases</a></div>
+            <div class="slider">
+              <div class="slider-nav" id="sliderNav"><a class="active" data-slide="0">Time as Data</a><a data-slide="1">Scalable Finality</a><a data-slide="2">No Sharding</a><a data-slide="3">Smart Contracts</a></div>
+              <div class="siema">
+                <div class="slide">
+                  <div class="left"><img src="./images/index/slider/slide1.png" srcset="./images/index/slider/slide1@2x.png 2x" alt="" width="504"></div>
+                  <div class="right">
+                    <h4 class="h4">Proof of History: The Key to Speed</h4>
+                    <p class="text">Similar to Google’s TrueTime, which relies on synchronized atomic clocks for a trusted source of time and ordering, Solana has created a cryptographically secure and trustless time source — and built a blockchain around it. We call it Proof of History.</p>
+                    <p class="text">By weaving this standardized timestamp into the blockchain, nodes in the network can verify the time and order of events without witnessing them directly. This drastically reduces messaging overhead and is one example of the many optimization capabilities that become available through Solana’s Proof of History.</p>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="left"><img src="./images/index/slider/slide2.png" srcset="./images/index/slider/slide2@2x.png 2x" alt="" width="504"></div>
+                  <div class="right">
+                    <h4 class="h4">Sub-second finality that actually scales</h4>
+                    <p class="text">Decentralized blockchain solutions have a scaling problem. In addition to low transaction rates, maintaining quick finality while the network scales is a major problem and many current solutions compromise decentralisation.</p>
+                    <p class="text">Through Solana’s “Avalanche” network communication innovation, finality times reduce exponentially as the network grows. This means we can expect ~500ms finality up through 10s of thousands of nodes and beyond.</p>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="left"><img src="./images/index/slider/slide3.png" srcset="./images/index/slider/slide3@2x.png 2x" alt="" width="504"></div>
+                  <div class="right">
+                    <h4 class="h4">Finally, scaling without sharding</h4>
+                    <p class="text">Solana’s approach takes existing blockchain architecture and algorithms and improves on them instead of overlaying additional complexities such as sharding which can compromise security. We believe the right solution is a simple solution.</p>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="left"><img src="./images/index/slider/slide4.png" srcset="./images/index/slider/slide4@2x.png 2x" alt="" width="504"></div>
+                  <div class="right">
+                    <h4 class="h4">Scalable smart contracts in any language</h4>
+                    <p class="text">The development community is our top priority. We intend to be the go-to network for developers who want to build decentralised applications of any kind. With Solana, you can write smart contracts in almost any language. We leverage Berkeley Packet Filter, allowing any language that LLVM supports to be utilized.</p>
+                    <p class="text">In addition, the smart contracts engine runs on GPUs. The future is massively parallel, and GPU cores are doubling every 2 years. Today a 5 thousand dollar machine will simultaneously execute 14,000 smart contracts. In two years 28,000. This is why in 10 years solana will be the first blockchain to process a billion transactions per second.</p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="right"><img src="./images/index/main1.svg" width="392" alt=""></div>
+          </div>
+        </section>
+      </div>
+      <div class="container">
+        <section class="section cases">
+          <div class="section__title">Use Cases</div>
+          <div class="section__inner">
+            <ul class="cases__list">
+              <li class="cases__item">
+                <div class="cases__icon"><img src="./images/index/main1.svg" alt=""></div>
+                <div class="cases__desc">
+                  <h4 class="h4">Decentralized exchanges</h4>
+                  <p class="text">Imagine a decentralized trading system that never touches users’ private keys. The entire order book is securely included in the blockchain replicated state while retaining all the performance characteristics of Nasdaq. At 710k tps, Solana can fit Nasdaq's volumes with room to spare. We enable this using atomic cross chain transactions combined with tradable swaps.</p>
+                </div>
+              </li>
+              <li class="cases__item">
+                <div class="cases__icon"><img src="./images/index/main2.svg" alt=""></div>
+                <div class="cases__desc">
+                  <h4 class="h4">Payments</h4>
+                  <p class="text">Payments are the holy grail of blockchain, but adoption and scalability are inevitable hurdles. Solana's transaction costs are to be on the order of $0.000001 and lightning fast. Bitcoin's throughput, at 3 payments per day per person, is only enough to service the population of Berkeley, California. We can do better. Solana lays the foundation for the payments platform that blockchain has always promised.</p>
+                </div>
+              </li>
+              <li class="cases__item">
+                <div class="cases__icon"><img src="./images/index/main3.svg" alt=""></div>
+                <div class="cases__desc">
+                  <h4 class="h4">Distributed Web Services and Storage</h4>
+                  <p class="text">The future of cloud storage and web services can be decentralized, encrypted, permissionless, and secure. Decentralized file storage systems have the potential to eliminate high markup and human capital costs, and set new standards of unit economics for distributed data storage. Solana provides a scalable path for this future to become a reality.</p>
+                </div>
+              </li>
+              <li class="cases__item">
+                <div class="cases__icon"><img src="./images/index/main4.svg" alt=""></div>
+                <div class="cases__desc">
+                  <h4 class="h4">Distributed Ad Exchanges</h4>
+                  <p class="text">If ads are traded on a single, transparent platform, all sorts of ancillary data-driven industries can sprout up: tracking and measurement, rating, and industry reporting. These business models would require nodes to keep much more extensive ledgers than just day-of transactions. At the same time so we need a highly scalable chain to support this future of ad tech (Google serves up 340,000 ads per second). What distributed solutions are there that can support high speed on-chain data collection? You guessed it, this is where Solana’s high throughput blockchain shines.</p>
+                </div>
+              </li>
+            </ul>
+            <div class="g-tac"><a class="btn btn_lg" href="#">Read the whitepaper</a></div>
+          </div>
+        </section>
+      </div>
+      <div class="container roadmap">
+        <section class="section">
+          <div class="section__inner">
+            <div class="section__title">Our Roadmap</div>
+            <ul class="roadmap__graph">
+              <li><span>November 2017</span><span>Whitepaper published</span></li>
+              <li><span>February 2018</span><span>Single node testnet</span></li>
+              <li><span>June 2018</span><span>Multinode testnet</span></li>
+              <li><span>July 2018</span><span>Public testnet alpha</span></li>
+              <li><span>September 2018</span><span>Payments SDK</span></li>
+              <li class="current"><span>Q4 2018</span><span>Smart contracts engine</span></li>
+              <li class="next"><span>Q1 2019</span><span>Live mainnet</span></li>
+            </ul>
+          </div>
+        </section>
+      </div>
+      <div class="container">
+        <section class="section">
+          <div class="section__title">The Team</div>
+          <div class="section__inner">
+            <div class="team" id="team">
+              <div class="team__grid" id="teamGrid">
+                <div class="member">
+                  <div class="member__avatar"><img src="./images/more/team/1.png" srcset="./images/more/team/1@2x.png 2x" alt="Anatoly Yakovenko"></div>
+                  <div class="member__desc">
+                    <div class="member__name">Anatoly Yakovenko</div>
+                    <div class="member__position">CEO</div>
+                    <p class="text">Anatoly is the creator of Solana. He led development of operating systems at Qualcomm, distributed systems at Mesosphere, and compression at Dropbox. He holds 2 patents for high performance Operating Systems protocols, was a core kernel developer for BREW which powered every CDMA flip phone (100m+ devices), and led development of tech that made Project Tango (VR/AR) possible on Qualcomm phones.</p>
+                  </div>
+                  <div class="member__btn">Show Bio</div>
+                </div>
+                <div class="member">
+                  <div class="member__avatar"><img src="./images/more/team/3.png" srcset="./images/more/team/3@2x.png 2x" alt="Greg Fitzgerald"></div>
+                  <div class="member__desc">
+                    <div class="member__name">Greg Fitzgerald</div>
+                    <div class="member__position">CTO</div>
+                    <p class="text">Greg is the principal architect of Solana. Formerly of Qualcomm's Office of the Chief Scientist, Greg has explored the full landscape of embedded systems. He created an bidirectional RPC bridge between C and Lua for the BREW operating system, helped launch the ARM backend for the LLVM compiler toolchain, and published a variety of open source projects including a streaming LLVM optimizer in Haskell, license analysis tooling in Python, and a reactive web framework in TypeScript. If you have time to burn, ask him "Why Rust?" We dare you.</p>
+                  </div>
+                  <div class="member__btn">Show Bio</div>
+                </div>
+                <div class="member">
+                  <div class="member__avatar"><img src="./images/more/team/14.png" srcset="./images/more/team/14@2x.png 2x" alt="Raj Gokal"></div>
+                  <div class="member__desc">
+                    <div class="member__name">Raj Gokal</div>
+                    <div class="member__position">COO</div>
+                    <p class="text">Raj leads operations, product, and finance. He has spent 10 years in product management and finance. He was a venture investor at General Catalyst, started the consumer medical device company Sano which attracted over $20m in investment, and led product management at Omada Health as it grew tenfold.</p>
+                  </div>
+                  <div class="member__btn">Show Bio</div>
+                </div>
+                <div class="member">
+                  <div class="member__avatar"><img src="./images/more/team/4.png" srcset="./images/more/team/4@2x.png 2x" alt="Eric Williams, PhD"></div>
+                  <div class="member__desc">
+                    <div class="member__name">Eric Williams, PhD</div>
+                    <div class="member__position">Chief Scientist</div>
+                    <p class="text">Eric heads data science and token economics. He studied particle physics at Berkeley and received his PhD from Columbia while Higgs hunting at CERN. He completed a postdoc in Medical Physics at Memorial Sloan Kettering Cancer Center and later led data science at Omada Health.</p>
+                  </div>
+                  <div class="member__btn">Show Bio</div>
+                </div>
+                <div class="member">
+                  <div class="member__avatar"><img src="./images/more/team/11.png" srcset="./images/more/team/11@2x.png 2x" alt="Stephen Akridge"></div>
+                  <div class="member__desc">
+                    <div class="member__name">Stephen Akridge</div>
+                    <div class="member__position">Principal Engineer</div>
+                    <p class="text">Stephen spends all his time in the codebase. He has 10 years of critical GPU optimization expertise at Qualcomm and Intel. He led the GPU backend that constantly beat Nvidia.</p>
+                  </div>
+                  <div class="member__btn">Show Bio</div>
+                </div>
+                <div class="member">
+                  <div class="member__avatar"><img src="./images/more/team/9.png" srcset="./images/more/team/9@2x.png 2x" alt="Michael Vines"></div>
+                  <div class="member__desc">
+                    <div class="member__name">Michael Vines</div>
+                    <div class="member__position">Principal Engineer</div>
+                    <p class="text">Michael spent 14 years at Qualcomm, rapidly rising from Engineer to Senior Director. He was founder and VP of Engineering of AI startup Silk Labs. He uses foot pedals when coding. Michael holds 3 patents.</p>
+                  </div>
+                  <div class="member__btn">Show Bio</div>
+                </div>
+                <div class="member">
+                  <div class="member__avatar"><img src="./images/more/team/13.png" srcset="./images/more/team/13@2x.png 2x" alt="Rob Walker"></div>
+                  <div class="member__desc">
+                    <div class="member__name">Rob Walker</div>
+                    <div class="member__position">Principal Engineer</div>
+                    <p class="text">Rob has a storied career, innovating in software from the 1990's at Netscape, through a 17 year career at Qualcomm leading teams spanning BREW, Component Services, DASH, and Snapdragon.</p>
+                  </div>
+                  <div class="member__btn">Show Bio</div>
+                </div>
+                <div class="member">
+                  <div class="member__avatar"><img src="./images/more/team/2.png" srcset="./images/more/team/2@2x.png 2x" alt="Jeff Levy"></div>
+                  <div class="member__desc">
+                    <div class="member__name">Jeff Levy</div>
+                    <div class="member__position">Operations</div>
+                    <p class="text">Jeff handles operations and finance. He was previously VP of Operations at Aclima, after founding and selling CareAtHand. Previously, he had ops roles at Twitter and Google.</p>
+                  </div>
+                  <div class="member__btn">Show Bio</div>
+                </div>
+                <div class="member">
+                  <div class="member__avatar"><img src="./images/more/team/15.png" srcset="./images/more/team/15@2x.png 2x" alt="Pankaj Garg"></div>
+                  <div class="member__desc">
+                    <div class="member__name">Pankaj Garg</div>
+                    <div class="member__position">Senior Staff Engineer</div>
+                    <p class="text">Pankaj joins us after 10 years at Qualcomm, where he worked in the Innovation Center. Previously he led design and development of the LTE modem chipset for mobile devices at Motorola.</p>
+                  </div>
+                  <div class="member__btn">Show Bio</div>
+                </div>
+                <div class="member">
+                  <div class="member__avatar"><img src="./images/more/team/5.png" srcset="./images/more/team/5@2x.png 2x" alt="Jack May"></div>
+                  <div class="member__desc">
+                    <div class="member__name">Jack May</div>
+                    <div class="member__position">Senior Staff Engineer</div>
+                    <p class="text">Jack joins us after 17 years at Qualcomm where he's had his hands in many areas, starting with BREW kernel and CDMA development, to developing for and leading teams in Qualcomm's Advanced Tech Department.</p>
+                  </div>
+                  <div class="member__btn">Show Bio</div>
+                </div>
+                <div class="member">
+                  <div class="member__avatar"><img src="./images/more/team/10.png" srcset="./images/more/team/10@2x.png 2x" alt="Tyera Eulberg"></div>
+                  <div class="member__desc">
+                    <div class="member__name">Tyera Eulberg</div>
+                    <div class="member__position">Senior Engineer</div>
+                    <p class="text">Tyera has spent close to 10 years as a developer, most recently at PS Audio International, where she wrote software from the physical to application layer for audio products.</p>
+                  </div>
+                  <div class="member__btn">Show Bio</div>
+                </div>
+                <div class="member">
+                  <div class="member__avatar"><img src="./images/more/team/6.png" srcset="./images/more/team/6@2x.png 2x" alt="Dominic"></div>
+                  <div class="member__desc">
+                    <div class="member__name">Dominic</div>
+                    <div class="member__position">Community and BD</div>
+                    <p class="text">Dom was an early contributor to our Telegram channel and has experience advising blockchain funds as well as managing communities for several open source blockchain projects. He has extensive experience as a project manager.</p>
+                  </div>
+                  <div class="member__btn">Show Bio</div>
+                </div>
+                <div class="member">
+                  <div class="member__avatar"><img src="./images/more/team/7.png" srcset="./images/more/team/7@2x.png 2x" alt="Carl Lin"></div>
+                  <div class="member__desc">
+                    <div class="member__name">Carl Lin</div>
+                    <div class="member__position">Senior Engineer</div>
+                    <p class="text">Carl graduated from Carnegie Mellon with a degree in Computer Science and spent years at Microsoft. Carl has advised and worked with blockchain-focused hedge funds and was an early contributor to Solana's open source codebase.</p>
+                  </div>
+                  <div class="member__btn">Show Bio</div>
+                </div>
+                <div class="member">
+                  <div class="member__avatar"><img src="./images/more/team/8.png" srcset="./images/more/team/8@2x.png 2x" alt="Sagar Dhawan"></div>
+                  <div class="member__desc">
+                    <div class="member__name">Sagar Dhawan</div>
+                    <div class="member__position">Staff Engineer</div>
+                    <p class="text">Sagar joins us after 4.5 years at Qualcomm's Innovation Center. He has worked on an open source Chromium browser fork and later designed and implemented products in Android for mobile security. He has a degree in Computer Engineering from the University of Illinois at Urbana-Champaign like some of our founders.</p>
+                  </div>
+                  <div class="member__btn">Show Bio</div>
+                </div>
+                <div class="member member__join"><a href="careers.html">Join us</a></div>
+              </div>
+              <div class="team__overlay" id="teamPopup">
+                <div class="team__popup">
+                  <div class="team__close" id="teamPopupClose">
+                    <svg width="18" height="18" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M17.457 1.957L16.043.543 9 7.586 1.957.543.543 1.957 7.586 9 .543 16.043l1.414 1.414L9 10.414l7.043 7.043 1.414-1.414L10.414 9z" fill="#FFF" fill-rule="evenodd" />
+                    </svg>
+                  </div>
+                  <div class="team__avatar"><img id="teamAvatar" src=""></div>
+                  <div class="team__desc">
+                    <div class="team__name" id="teamName">Anatoly Yakovenko</div>
+                    <div class="team__pos" id="teamPos">CEO</div>
+                    <div class="team__text" id="teamText">Anatoly is the creator of Solana. He led development of operating systems at Qualcomm, distributed systems at Mesosphere, and compression at Dropbox. He holds 2 patents for high performance Operating Systems protocols, was a core kernel developer for BREW which powered every CDMA flip phone (100m+ devices), and led development of tech that made Project Tango (VR/AR) possible on Qualcomm phones.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="container">
+        <div class="faq">
+          <div class="faq__inner">
+            <h3 class="h3">Frequently Asked Questions</h3>
+            <div class="faq__nav" id="faqNav"><a class="active" data-go="0">General</a><a data-go="1">Status</a><a data-go="2">Technical</a><a data-go="3">Proof of History</a></div>
+            <div class="faqTabs">
+              <div class="faq-tab">
+                <ul class="faq__list js-accordion">
+                  <li class="faq__item js-accordion-item">
+                    <div class="faq__title"><span>What’s the TL;DR of the whitepaper?</span></div>
+                    <div class="faq__text js-accordion-text">
+                      <p>We are building a new blockchain protocol that’s based on encoding passage of time as data. We call this Proof of History (PoH). Solana is creating a trustless, distributed, cryptographic protocol to create a reliable ordering of events, which solves for many of the existing scalability problems that other blockchain protocols face.</p>
+                      <p>Our solution is built to make transaction processing independent of consensus. Additionally, this is a high-throughput blockchain that doesn’t rely on shards, partitions, side chains, multi chains, etc. As a result of this new system architecture, Solana’s new PoH blockchain will allow up to 710,000 transactions per second on a 1 gigabit network.</p>
+                    </div>
+                  </li>
+                  <li class="faq__item js-accordion-item">
+                    <div class="faq__title"><span>What makes this scalable?</span></div>
+                    <div class="faq__text js-accordion-text">
+                      <p>For many distributed networks, the time to finality (the guarantee that past transactions on a digital ledger are legitimate and will not change) scales as the square or even the cube of the number of nodes in the system. Because of our Proof of History (PoH) implementation and our Avalanche communication design, Solana blockchain’s time to finality scales with the logarithm of the number of nodes. What does this mean? A high throughput network, with tens of thousands of nodes, that retains sub-second finality times.</p>
+                    </div>
+                  </li>
+                  <li class="faq__item js-accordion-item">
+                    <div class="faq__title"><span>What's Proof of Replication and what is it's role in Solana's blockchain?</span></div>
+                    <div class="faq__text js-accordion-text">
+                      <p>Proof of Replication (PoRep) is a proof of storage protocol. And in our blockchain, it’s used for increasing availability, making it unnecessary for all nodes in the entire network to store the full ledger. It achieves this by ensuring that each bit of data has been replicated to it’s own uniquely dedicated physical storage node(s). In practical terms, it essentially allows the network to prove that a node you don’t trust is using its resources to store a segment of the ledger. This generates a torrent like network, where no single node is holding the full ledger, but a copy is always available on demand.</p>
+                    </div>
+                  </li>
+                  <li class="faq__item js-accordion-item">
+                    <div class="faq__title"><span>What’s Avalanche, and what does it do?</span></div>
+                    <div class="faq__text js-accordion-text">
+                      <p>Avalanche is a method of organising the network data flow. The generator (leader) is at the top of the pyramid, with validators at each level below it. And for every additional level below the generator, the number of validators doubles.</p>
+                      <p>This enables Solana to scale their finality times logarithmically or log(n), where ‘n’ is the number of nodes. Typically, finality times on traditional gossip protocols scale at n squared, which means the finality times suffer exponentially as nodes increase on the network. However with Avalanche, the opposite occurs on Solana, thus supporting greater decentralization of nodes, while maintaining sub-second finality times.</p>
+                    </div>
+                  </li>
+                  <li class="faq__item js-accordion-item">
+                    <div class="faq__title"><span>Was Solana previously Loom Protocol? Why the name change to Solana?</span></div>
+                    <div class="faq__text js-accordion-text">
+                      <p>Indeed, Solana was previously known as Loom Protocol. Due to other projects having similar names, the project team decided to change its name to Solana.</p>
+                      <p>The name Solana is inspired by a beach town in Northern San Diego county where the CEO and the Co-Founders lived and surfed for 5 years.</p>
+                    </div>
+                  </li>
+                  <li class="faq__item js-accordion-item">
+                    <div class="faq__title"><span>What’s Solana's Consensus mechanism?</span></div>
+                    <div class="faq__text js-accordion-text">
+                      <p>Solana uses Proof of Stake (PoS) as its consensus mechanism. Solana does innovate on the consensus layer--our approach to better scalability is adding a sense of time to a permissionless network. Read about our PoH protocol here.</p>
+                    </div>
+                  </li>
+                  <li class="faq__item js-accordion-item">
+                    <div class="faq__title"><span>Is Solana a permissioned or permissionless network?</span></div>
+                    <div class="faq__text js-accordion-text">
+                      <p>Solana is a permissionless network.</p>
+                    </div>
+                  </li>
+                  <li class="faq__item js-accordion-item">
+                    <div class="faq__title"><span>What are some of the main use cases of Solana?</span></div>
+                    <div class="faq__text js-accordion-text">
+                      <p>Given the high transaction throughput of Solana, which is comparable to the amount of transactions that NASDAQ completes per second, we believe Solana will be capable of powering the next generation of decentralised exchanges, prediction markets, payment platforms, etc. However, that’s not to say that other dApps won’t be suitable for Solana. The aim of the project is to be a dApp platform that can support a broad range of use cases beyond those mentioned above.</p>
+                    </div>
+                  </li>
+                  <li class="faq__item js-accordion-item">
+                    <div class="faq__title"><span>What smart contract languages will Solana support?</span></div>
+                    <div class="faq__text js-accordion-text">
+                      <p>Solana will be built with a LLVM front end, which will mean that any language supported by LLVM will be available to developers. The full suite of supported languages will be rolled out progressively, starting with Solidity and Javascript.</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="faq-tab">
+                <ul class="faq__list js-accordion">
+                  <li class="faq__item js-accordion-item">
+                    <div class="faq__title"><span>How far along are you?</span></div>
+                    <div class="faq__text js-accordion-text">
+                      <p>Our development is in full swing, our whitepaper has been validated by multiple parties, and feedback is always welcome. Join our Telegram or contact us for the latest</p>
+                      <p>As of early May, Solana is at single node testnet v0.5.0. We achieved 250,000 transactions per second. This is a 700% increase over the previous version, which was at 35,000 transactions per second. During this version of the testnet we peaked at 400,000 transactions. These results were achievable partly because of Stephen Akridge’s GPU implementation, which enables 870,000 signature verifications per second.</p>
+                      <p>The next milestone for the project is to set up a multinode testnet. We expect to share an update in June.</p>
+                      <p>If you’d like to stay up to date on the team’s progress feel free to review our Github under the releases section. Or feel free to join us on Telegram to speak directly with the team.</p>
+                    </div>
+                  </li>
+                  <li class="faq__item js-accordion-item">
+                    <div class="faq__title"><span>Does the Solana team need help with development?</span></div>
+                    <div class="faq__text js-accordion-text">
+                      <p>Yes. Do you know Cuda or Rust? Or are you familiar with wallet integrations? Or is there something else you’re excited about helping with after reading our whitepaper and checking out our github? Check out our Careers page or get in touch via Telegram or email.</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="faq-tab">
+                <ul class="faq__list js-accordion">
+                  <li class="faq__item js-accordion-item">
+                    <div class="faq__title"><span>What’s your technology stack?</span></div>
+                    <div class="faq__text js-accordion-text">
+                      <p>We use Cuda, Rust. The primary reason for this is because there is no garbage collector. And the compiler manages memory for you. This is critical because to interface with the GPU we need to access the memory directly without overhead. All the other garbage collection languages typically have high overheads.</p>
+                    </div>
+                  </li>
+                  <li class="faq__item js-accordion-item">
+                    <div class="faq__title"><span>How do you prevent a DDoS of the PoRep nodes?</span></div>
+                    <div class="faq__text js-accordion-text">
+                      <p>PoRep is replicating the ledger, not the state (this is the Spool). You still need to pay message fees so you can’t DoS everything, but you can create many accounts with little value in each. We might end up pushing things to disk if they are stale or small.</p>
+                    </div>
+                  </li>
+                  <li class="faq__item js-accordion-item">
+                    <div class="faq__title"><span>Within the whitepaper, it’s stated that the overall packet size ranges from 132 to 176 bytes. How does Solana achieve this data density?</span></div>
+                    <div class="faq__text js-accordion-text">
+                      <p>The smallest packet size as outlined within the whitepaper is made up of the following elements:</p>
+                      <p>
+                        20 byte (160 bit) last valid hash counter (ripemd of the sha)
+                        8 byte counter
+                        2 byte flags and payload size
+                        20 byte to address (ripemd(sha256(public key)))
+                        8 byte amount
+                        8 byte fee
+                        32 byte public key used to sign
+                        64 byte signature
+                      </p>
+                      <p>The sum of all of that is: 20 + 8 + 2 + 20 + 8 + 8 + 32 + 64 = 162 bytes.</p>
+                      <p>In theory, the packet size could be reduced even further by keeping the amounts dynamically sized based on flags and dropping the counters. However, the gains are minimal, and would only serve to increase the format complexity.</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="faq-tab">
+                <ul class="faq__list js-accordion">
+                  <li class="faq__item js-accordion-item">
+                    <div class="faq__title"><span>FAQs coming soon</span></div>
+                    <div class="faq__text js-accordion-text">
+                      <p>For more on Proof of History, check out our articles on Medium.</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
-      </section>
-      <section class="section early-access">
-        <div class="container">
-          <div class="section__inner">
-            <div class="left">
-              <h2 class="h2">Apply for early access to mining</h2>
-              <p class="text grey">Get in touch and be a part of our mining network from day one.</p>
-              <div class="flex"><a class="btn btn_primary" href="miners.html">Request Early Access</a><a class="btn btn_grey" href="more.html">Learn More</a></div>
-            </div>
-            <div class="right"><img src="./images/index/main2.svg" alt="" width="504"></div>
-          </div>
-        </div>
-      </section>
-      <section class="section partnership">
-        <div class="container">
-          <div class="section__inner">
-            <div class="left">
-              <h2 class="h2">Be part of our partnership program</h2>
-              <p class="text grey">The Solana mainnet is in development now and we’re accepting a limited number of projects as early development launch partners.</p>
-              <div class="flex"><a class="btn btn_primary" href="presale.html">Become a launch partner</a><a class="btn btn_grey" href="more.html">Learn more</a></div>
-            </div>
-            <div class="right"><img src="./images/index/main3.svg" alt="" width="442"></div>
-          </div>
-        </div>
-      </section>
+      </div>
       <div class="subscribe">
         <div class="container">
           <div id="mc_embed_signup">
             <form class="validate" id="mc-embedded-subscribe-form" action="https://solana.us17.list-manage.com/subscribe/post?u=dc5b8a6eb6dc3d737579c03c9&amp;id=6e05dcf8e9" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate="novalidate">
               <div class="subscribe__form" id="mc_embed_signup_scroll">
                 <div class="mc-field-group">
-                  <label><span>Subscribe our newsletter</span>
-                    <input class="required" id="mce-EMAIL" type="email" name="EMAIL" aria-required="true" placeholder="Enter your email address">
+                  <label>
+                    <input class="required" id="mce-EMAIL" type="email" name="EMAIL" aria-required="true" placeholder="Email address">
                   </label>
                 </div>
-                <button class="subscribe__submit" id="mc-embedded-subscribe" name="subscribe"><span>
-                    <svg viewBox="0 0 17 26" width="17" height="26" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1 1l14 12L1 25" stroke="#000" stroke-width="2" fill="none" fill-rule="evenodd"/>
-                    </svg></span></button>
+                <div class="subscribe__bottom">
+                  <button class="btn btn_lg" id="mc-embedded-subscribe" name="subscribe"><span>Subscribe</span></button><a class="btn btn_grey btn_lg" href="#">Partner with us</a>
+                  <ul class="social__list social__list_s">
+                    <li class="social__link"><a href="https://t.me/solanaio">
+                        <svg width="117" height="103" viewBox="0 0 117 103" xmlns="http://www.w3.org/2000/svg">
+                          <g fill="none" fill-rule="evenodd">
+                            <path d="M3.86 45.727l18.22 5.49a10 10 0 0 0 8.078-1.029l47.86-29.081a2 2 0 0 1 2.406 3.168L40.96 61.242a1 1 0 0 0-.317.73v23.424a1 1 0 0 0 1.723.69L55.84 71.989a1 1 0 0 1 1.348-.09L77.37 88.052a8 8 0 0 0 12.826-4.595L105.794 9.52a7 7 0 0 0-9.418-7.957L3.546 38.176a4 4 0 0 0 .314 7.551z" stroke="#FFF"/>
+                            <path d="M3.86 45.727l18.22 5.49a10 10 0 0 0 8.078-1.029l47.86-29.081a2 2 0 0 1 2.406 3.168L40.96 61.242a1 1 0 0 0-.317.73v23.424a1 1 0 0 0 1.723.69L55.84 71.989a1 1 0 0 1 1.348-.09L77.37 88.052a8 8 0 0 0 12.826-4.595L105.794 9.52a7 7 0 0 0-9.418-7.957L3.546 38.176a4 4 0 0 0 .314 7.551z" stroke="#11D38F"/>
+                            <path d="M3.86 45.727l18.22 5.49a10 10 0 0 0 8.078-1.029l47.86-29.081a2 2 0 0 1 2.406 3.168L40.96 61.242a1 1 0 0 0-.317.73v23.424a1 1 0 0 0 1.723.69L55.84 71.989a1 1 0 0 1 1.348-.09L77.37 88.052a8 8 0 0 0 12.826-4.595L105.794 9.52a7 7 0 0 0-9.418-7.957L3.546 38.176a4 4 0 0 0 .314 7.551z" stroke="#11D38F"/>
+                            <path d="M3.86 45.727l18.22 5.49a10 10 0 0 0 8.078-1.029l47.86-29.081a2 2 0 0 1 2.406 3.168L40.96 61.242a1 1 0 0 0-.317.73v23.424a1 1 0 0 0 1.723.69L55.84 71.989a1 1 0 0 1 1.348-.09L77.37 88.052a8 8 0 0 0 12.826-4.595L105.794 9.52a7 7 0 0 0-9.418-7.957L3.546 38.176a4 4 0 0 0 .314 7.551z" stroke="#11D38F"/>
+                          </g>
+                        </svg>
+                        </a></li>
+                    <li class="social__link"><a href="https://twitter.com/solanalabs">
+                        <svg width="123" height="106" viewBox="0 0 123 106" xmlns="http://www.w3.org/2000/svg">
+                          <g fill="none" fill-rule="evenodd">
+                            <path d="M106 11.55a42.265 42.265 0 0 1-12.49 3.529c4.485-2.78 7.935-7.182 9.557-12.422a42.98 42.98 0 0 1-13.802 5.454C85.297 3.744 79.638 1 73.393 1 61.385 1 51.637 11.07 51.637 23.473c0 1.764.19 3.475.57 5.115-18.081-.927-34.109-9.874-44.823-23.471-1.88 3.315-2.95 7.182-2.95 11.298 0 7.788 3.83 14.667 9.679 18.695a21.1 21.1 0 0 1-9.852-2.816v.285c0 10.89 7.488 19.978 17.443 22.028a21.004 21.004 0 0 1-5.728.802c-1.398 0-2.778-.143-4.089-.41 2.76 8.928 10.8 15.415 20.306 15.611-7.436 6.024-16.82 9.606-27 9.606-1.76 0-3.485-.107-5.193-.32C9.627 86.275 21.048 90 33.332 90c40.009 0 61.885-34.235 61.885-63.925 0-.963-.034-1.943-.069-2.905A45.384 45.384 0 0 0 106 11.55z" stroke="#FFF"/>
+                            <path d="M106 11.55a42.265 42.265 0 0 1-12.49 3.529c4.485-2.78 7.935-7.182 9.557-12.422a42.98 42.98 0 0 1-13.802 5.454C85.297 3.744 79.638 1 73.393 1 61.385 1 51.637 11.07 51.637 23.473c0 1.764.19 3.475.57 5.115-18.081-.927-34.109-9.874-44.823-23.471-1.88 3.315-2.95 7.182-2.95 11.298 0 7.788 3.83 14.667 9.679 18.695a21.1 21.1 0 0 1-9.852-2.816v.285c0 10.89 7.488 19.978 17.443 22.028a21.004 21.004 0 0 1-5.728.802c-1.398 0-2.778-.143-4.089-.41 2.76 8.928 10.8 15.415 20.306 15.611-7.436 6.024-16.82 9.606-27 9.606-1.76 0-3.485-.107-5.193-.32C9.627 86.275 21.048 90 33.332 90c40.009 0 61.885-34.235 61.885-63.925 0-.963-.034-1.943-.069-2.905A45.384 45.384 0 0 0 106 11.55z" stroke="#11D38F"/>
+                            <path d="M106 11.55a42.265 42.265 0 0 1-12.49 3.529c4.485-2.78 7.935-7.182 9.557-12.422a42.98 42.98 0 0 1-13.802 5.454C85.297 3.744 79.638 1 73.393 1 61.385 1 51.637 11.07 51.637 23.473c0 1.764.19 3.475.57 5.115-18.081-.927-34.109-9.874-44.823-23.471-1.88 3.315-2.95 7.182-2.95 11.298 0 7.788 3.83 14.667 9.679 18.695a21.1 21.1 0 0 1-9.852-2.816v.285c0 10.89 7.488 19.978 17.443 22.028a21.004 21.004 0 0 1-5.728.802c-1.398 0-2.778-.143-4.089-.41 2.76 8.928 10.8 15.415 20.306 15.611-7.436 6.024-16.82 9.606-27 9.606-1.76 0-3.485-.107-5.193-.32C9.627 86.275 21.048 90 33.332 90c40.009 0 61.885-34.235 61.885-63.925 0-.963-.034-1.943-.069-2.905A45.384 45.384 0 0 0 106 11.55z" stroke="#11D38F"/>
+                            <path d="M106 11.55a42.265 42.265 0 0 1-12.49 3.529c4.485-2.78 7.935-7.182 9.557-12.422a42.98 42.98 0 0 1-13.802 5.454C85.297 3.744 79.638 1 73.393 1 61.385 1 51.637 11.07 51.637 23.473c0 1.764.19 3.475.57 5.115-18.081-.927-34.109-9.874-44.823-23.471-1.88 3.315-2.95 7.182-2.95 11.298 0 7.788 3.83 14.667 9.679 18.695a21.1 21.1 0 0 1-9.852-2.816v.285c0 10.89 7.488 19.978 17.443 22.028a21.004 21.004 0 0 1-5.728.802c-1.398 0-2.778-.143-4.089-.41 2.76 8.928 10.8 15.415 20.306 15.611-7.436 6.024-16.82 9.606-27 9.606-1.76 0-3.485-.107-5.193-.32C9.627 86.275 21.048 90 33.332 90c40.009 0 61.885-34.235 61.885-63.925 0-.963-.034-1.943-.069-2.905A45.384 45.384 0 0 0 106 11.55z" stroke="#11D38F"/>
+                          </g>
+                        </svg>
+                        </a></li>
+                    <li class="social__link"><a href="https://medium.com/solana-labs">
+                        <svg width="122" height="98" viewBox="0 0 122 98" xmlns="http://www.w3.org/2000/svg">
+                          <g fill="none" fill-rule="evenodd">
+                            <path d="M13.688 18.136a4.074 4.074 0 0 0-1.349-3.457L2.35 2.778V1h31.02l23.978 52 21.08-52H108v1.778l-8.542 8.099a2.455 2.455 0 0 0-.95 2.37v59.506a2.455 2.455 0 0 0 .95 2.37l8.342 8.1V85H65.84v-1.778l8.641-8.296c.85-.84.85-1.086.85-2.37v-48.1L51.303 84.803h-3.247L20.082 24.457V64.9a5.54 5.54 0 0 0 1.549 4.642l11.24 13.482v1.777H1v-1.777l11.24-13.482a5.343 5.343 0 0 0 1.448-4.642V18.136z" stroke="#FFF"/>
+                            <path d="M13.688 18.136a4.074 4.074 0 0 0-1.349-3.457L2.35 2.778V1h31.02l23.978 52 21.08-52H108v1.778l-8.542 8.099a2.455 2.455 0 0 0-.95 2.37v59.506a2.455 2.455 0 0 0 .95 2.37l8.342 8.1V85H65.84v-1.778l8.641-8.296c.85-.84.85-1.086.85-2.37v-48.1L51.303 84.803h-3.247L20.082 24.457V64.9a5.54 5.54 0 0 0 1.549 4.642l11.24 13.482v1.777H1v-1.777l11.24-13.482a5.343 5.343 0 0 0 1.448-4.642V18.136z" stroke="#11D38F"/>
+                            <path d="M13.688 18.136a4.074 4.074 0 0 0-1.349-3.457L2.35 2.778V1h31.02l23.978 52 21.08-52H108v1.778l-8.542 8.099a2.455 2.455 0 0 0-.95 2.37v59.506a2.455 2.455 0 0 0 .95 2.37l8.342 8.1V85H65.84v-1.778l8.641-8.296c.85-.84.85-1.086.85-2.37v-48.1L51.303 84.803h-3.247L20.082 24.457V64.9a5.54 5.54 0 0 0 1.549 4.642l11.24 13.482v1.777H1v-1.777l11.24-13.482a5.343 5.343 0 0 0 1.448-4.642V18.136z" stroke="#11D38F"/>
+                            <path d="M13.688 18.136a4.074 4.074 0 0 0-1.349-3.457L2.35 2.778V1h31.02l23.978 52 21.08-52H108v1.778l-8.542 8.099a2.455 2.455 0 0 0-.95 2.37v59.506a2.455 2.455 0 0 0 .95 2.37l8.342 8.1V85H65.84v-1.778l8.641-8.296c.85-.84.85-1.086.85-2.37v-48.1L51.303 84.803h-3.247L20.082 24.457V64.9a5.54 5.54 0 0 0 1.549 4.642l11.24 13.482v1.777H1v-1.777l11.24-13.482a5.343 5.343 0 0 0 1.448-4.642V18.136z" stroke="#11D38F"/>
+                          </g>
+                        </svg></a></li>
+                    <li class="social__link"><a href="https://github.com/solana-labs">
+                        <svg width="118" height="117" viewBox="0 0 118 117" xmlns="http://www.w3.org/2000/svg">
+                          <g fill="none" fill-rule="evenodd">
+                            <path d="M54.388 1C24.906 1 1 24.822 1 54.21 1 77.72 16.297 97.665 37.51 104.7c2.668.493 3.648-1.154 3.648-2.56 0-1.268-.05-5.46-.073-9.906C26.233 95.454 23.1 85.957 23.1 85.957c-2.43-6.15-5.928-7.786-5.928-7.786-4.844-3.303.365-3.235.365-3.235 5.36.375 8.184 5.484 8.184 5.484 4.761 8.134 12.49 5.783 15.536 4.423.479-3.438 1.863-5.787 3.39-7.115-11.859-1.346-24.324-5.908-24.324-26.297 0-5.81 2.085-10.556 5.5-14.283-.554-1.34-2.381-6.752.518-14.081 0 0 4.483-1.43 14.685 5.454 4.259-1.18 8.826-1.77 13.363-1.79 4.537.02 9.108.61 13.374 1.79 10.19-6.885 14.667-5.454 14.667-5.454 2.906 7.329 1.078 12.74.524 14.081 3.423 3.727 5.494 8.473 5.494 14.283 0 20.437-12.49 24.937-24.377 26.254 1.914 1.652 3.62 4.89 3.62 9.854 0 7.119-.061 12.85-.061 14.603 0 1.416.96 3.075 3.667 2.552 21.201-7.044 36.479-26.982 36.479-50.484C107.775 24.822 83.872 1 54.388 1" stroke="#FFF"/>
+                            <path d="M54.388 1C24.906 1 1 24.822 1 54.21 1 77.72 16.297 97.665 37.51 104.7c2.668.493 3.648-1.154 3.648-2.56 0-1.268-.05-5.46-.073-9.906C26.233 95.454 23.1 85.957 23.1 85.957c-2.43-6.15-5.928-7.786-5.928-7.786-4.844-3.303.365-3.235.365-3.235 5.36.375 8.184 5.484 8.184 5.484 4.761 8.134 12.49 5.783 15.536 4.423.479-3.438 1.863-5.787 3.39-7.115-11.859-1.346-24.324-5.908-24.324-26.297 0-5.81 2.085-10.556 5.5-14.283-.554-1.34-2.381-6.752.518-14.081 0 0 4.483-1.43 14.685 5.454 4.259-1.18 8.826-1.77 13.363-1.79 4.537.02 9.108.61 13.374 1.79 10.19-6.885 14.667-5.454 14.667-5.454 2.906 7.329 1.078 12.74.524 14.081 3.423 3.727 5.494 8.473 5.494 14.283 0 20.437-12.49 24.937-24.377 26.254 1.914 1.652 3.62 4.89 3.62 9.854 0 7.119-.061 12.85-.061 14.603 0 1.416.96 3.075 3.667 2.552 21.201-7.044 36.479-26.982 36.479-50.484C107.775 24.822 83.872 1 54.388 1" stroke="#11D38F"/>
+                            <path d="M54.388 1C24.906 1 1 24.822 1 54.21 1 77.72 16.297 97.665 37.51 104.7c2.668.493 3.648-1.154 3.648-2.56 0-1.268-.05-5.46-.073-9.906C26.233 95.454 23.1 85.957 23.1 85.957c-2.43-6.15-5.928-7.786-5.928-7.786-4.844-3.303.365-3.235.365-3.235 5.36.375 8.184 5.484 8.184 5.484 4.761 8.134 12.49 5.783 15.536 4.423.479-3.438 1.863-5.787 3.39-7.115-11.859-1.346-24.324-5.908-24.324-26.297 0-5.81 2.085-10.556 5.5-14.283-.554-1.34-2.381-6.752.518-14.081 0 0 4.483-1.43 14.685 5.454 4.259-1.18 8.826-1.77 13.363-1.79 4.537.02 9.108.61 13.374 1.79 10.19-6.885 14.667-5.454 14.667-5.454 2.906 7.329 1.078 12.74.524 14.081 3.423 3.727 5.494 8.473 5.494 14.283 0 20.437-12.49 24.937-24.377 26.254 1.914 1.652 3.62 4.89 3.62 9.854 0 7.119-.061 12.85-.061 14.603 0 1.416.96 3.075 3.667 2.552 21.201-7.044 36.479-26.982 36.479-50.484C107.775 24.822 83.872 1 54.388 1" stroke="#11D38F"/>
+                            <path d="M54.388 1C24.906 1 1 24.822 1 54.21 1 77.72 16.297 97.665 37.51 104.7c2.668.493 3.648-1.154 3.648-2.56 0-1.268-.05-5.46-.073-9.906C26.233 95.454 23.1 85.957 23.1 85.957c-2.43-6.15-5.928-7.786-5.928-7.786-4.844-3.303.365-3.235.365-3.235 5.36.375 8.184 5.484 8.184 5.484 4.761 8.134 12.49 5.783 15.536 4.423.479-3.438 1.863-5.787 3.39-7.115-11.859-1.346-24.324-5.908-24.324-26.297 0-5.81 2.085-10.556 5.5-14.283-.554-1.34-2.381-6.752.518-14.081 0 0 4.483-1.43 14.685 5.454 4.259-1.18 8.826-1.77 13.363-1.79 4.537.02 9.108.61 13.374 1.79 10.19-6.885 14.667-5.454 14.667-5.454 2.906 7.329 1.078 12.74.524 14.081 3.423 3.727 5.494 8.473 5.494 14.283 0 20.437-12.49 24.937-24.377 26.254 1.914 1.652 3.62 4.89 3.62 9.854 0 7.119-.061 12.85-.061 14.603 0 1.416.96 3.075 3.667 2.552 21.201-7.044 36.479-26.982 36.479-50.484C107.775 24.822 83.872 1 54.388 1" stroke="#11D38F"/>
+                          </g>
+                        </svg></a></li>
+                  </ul>
+                </div>
                 <div class="clear" id="mce-responses">
                   <div class="response bg-primary white f5 b pa3 tc mw5 center br2" id="mce-error-response" style="display:none"></div>
                   <div class="response bg-error white f5 b pa3 tc mw5 center br2" id="mce-success-response" style="display:none"></div>
