@@ -21,11 +21,11 @@
         <nav class="main-menu" id="menu">
           <ul class="main-menu__list">
             <li class="main-menu__item"><a class="main-menu__link" href="/">Home</a></li>
-            <li class="main-menu__item"><a class="main-menu__link" href="developers.html">Developers</a></li>
-            <li class="main-menu__item"><a class="main-menu__link" href="presale.html">Presale</a></li>
-            <li class="main-menu__item"><a class="main-menu__link" href="miners.html">Mining</a></li>
-            <li class="main-menu__item"><a class="main-menu__link" href="https://solana.com/solana-whitepaper.pdf">Whitepaper</a></li>
-            <li class="main-menu__item"><a class="main-menu__link active" href="community.html">Community</a></li>
+            <li class="main-menu__item"><a class="main-menu__link" href="developers.html" id="click-menu-developers">Developers</a></li>
+            <li class="main-menu__item"><a class="main-menu__link" href="presale.html" id="click-menu-presale">Presale</a></li>
+            <li class="main-menu__item"><a class="main-menu__link" href="miners.html" id="click-menu-mining">Mining</a></li>
+            <li class="main-menu__item"><a class="main-menu__link" href="https://solana.com/solana-whitepaper.pdf" id="click-whitepaper">Whitepaper</a></li>
+            <li class="main-menu__item"><a class="main-menu__link active" href="community.html" id="click-menu-community">Community</a></li>
             <li class="main-menu__item"><a class="main-menu__link" href="careers.html">Careers</a></li>
             <li class="main-menu__item"><a class="main-menu__btn" href="https://t.me/solanaio"><span>Join our telegram</span></a></li>
           </ul>
@@ -44,7 +44,7 @@
             <div class="hero__inner">
               <div class="hero__left">
                 <h1 class="h1">Join the movement</h1>
-                <p class="text">Stay tuned with more events coming and learn how we start blockchain revolution</p><a class="btn btn_white" href="#events"><span>Follow our events</span></a>
+                <p class="text">Stay tuned with more events coming and learn how we start blockchain revolution</p><a class="btn btn_white" href="#events" id="hero-events"><span>Follow our events</span></a>
               </div>
               <div class="hero__right">
                 <video src="./videos/4.mp4" autoplay loop muted preload="none"></video>
@@ -57,7 +57,7 @@
           <div class="social">
             <div class="section__title">We are socialized</div>
             <ul class="social__list">
-              <li class="social__link"><a href="https://twitter.com/solanalabs">
+              <li class="social__link"><a href="https://twitter.com/solanalabs" id="click-community-twitter-icon">
                   <svg width="123" height="106" viewBox="0 0 123 106" xmlns="http://www.w3.org/2000/svg">
                     <g fill="none" fill-rule="evenodd">
                       <path d="M106 11.55a42.265 42.265 0 0 1-12.49 3.529c4.485-2.78 7.935-7.182 9.557-12.422a42.98 42.98 0 0 1-13.802 5.454C85.297 3.744 79.638 1 73.393 1 61.385 1 51.637 11.07 51.637 23.473c0 1.764.19 3.475.57 5.115-18.081-.927-34.109-9.874-44.823-23.471-1.88 3.315-2.95 7.182-2.95 11.298 0 7.788 3.83 14.667 9.679 18.695a21.1 21.1 0 0 1-9.852-2.816v.285c0 10.89 7.488 19.978 17.443 22.028a21.004 21.004 0 0 1-5.728.802c-1.398 0-2.778-.143-4.089-.41 2.76 8.928 10.8 15.415 20.306 15.611-7.436 6.024-16.82 9.606-27 9.606-1.76 0-3.485-.107-5.193-.32C9.627 86.275 21.048 90 33.332 90c40.009 0 61.885-34.235 61.885-63.925 0-.963-.034-1.943-.069-2.905A45.384 45.384 0 0 0 106 11.55z" stroke="#FFF"/>
@@ -66,7 +66,7 @@
                       <path d="M106 11.55a42.265 42.265 0 0 1-12.49 3.529c4.485-2.78 7.935-7.182 9.557-12.422a42.98 42.98 0 0 1-13.802 5.454C85.297 3.744 79.638 1 73.393 1 61.385 1 51.637 11.07 51.637 23.473c0 1.764.19 3.475.57 5.115-18.081-.927-34.109-9.874-44.823-23.471-1.88 3.315-2.95 7.182-2.95 11.298 0 7.788 3.83 14.667 9.679 18.695a21.1 21.1 0 0 1-9.852-2.816v.285c0 10.89 7.488 19.978 17.443 22.028a21.004 21.004 0 0 1-5.728.802c-1.398 0-2.778-.143-4.089-.41 2.76 8.928 10.8 15.415 20.306 15.611-7.436 6.024-16.82 9.606-27 9.606-1.76 0-3.485-.107-5.193-.32C9.627 86.275 21.048 90 33.332 90c40.009 0 61.885-34.235 61.885-63.925 0-.963-.034-1.943-.069-2.905A45.384 45.384 0 0 0 106 11.55z" stroke="#11D38F"/>
                     </g>
                   </svg></a></li>
-              <li class="social__link"><a href="https://reddit.com/r/solana">
+              <li class="social__link"><a href="https://reddit.com/r/solana" id="click-community-reddit-icon">
                   <svg width="131" height="120" viewBox="0 0 131 120" xmlns="http://www.w3.org/2000/svg">
                     <g fill="none" fill-rule="evenodd">
                       <path d="M86.312 11.298L72.166 8.826a3.28 3.28 0 0 0-3.759 2.492l-5.67 24.438c13.763.492 26.098 4.72 34.928 11.245a13.069 13.069 0 0 1 9.217-3.789c7.245 0 13.118 5.88 13.118 13.133 0 5.655-3.57 10.475-8.577 12.325.095.886.144 1.781.144 2.684C111.567 91.041 88.494 107 60.03 107 31.57 107 8.496 91.04 8.496 71.354c0-1.028.063-2.047.186-3.053A13.136 13.136 0 0 1 1 56.345c0-7.253 5.873-13.133 13.118-13.133 3.391 0 6.482 1.289 8.81 3.403 8.499-6.096 20.108-10.104 33.06-10.799l6.03-25.984C63.2 4.74 68.15 1.459 73.294 2.358l14.719 2.571A9.355 9.355 0 0 1 95.638 1c5.175 0 9.37 4.2 9.37 9.38 0 5.181-4.195 9.381-9.37 9.381-4.866 0-8.866-3.713-9.326-8.463zM40 73a9 9 0 1 0 0-18 9 9 0 0 0 0 18zm40 0a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM37.665 88.21C42.41 93.05 50.988 96 60.378 96c9.587 0 18.32-3.076 22.996-8.085a2.328 2.328 0 0 0-.112-3.289 2.323 2.323 0 0 0-3.285.112c-3.703 3.967-11.203 6.609-19.599 6.609-8.232 0-15.613-2.54-19.394-6.396a2.323 2.323 0 0 0-3.288-.03c-.916.9-.93 2.372-.03 3.29z" stroke="#FFF"/>
@@ -75,7 +75,7 @@
                       <path d="M86.312 11.298L72.166 8.826a3.28 3.28 0 0 0-3.759 2.492l-5.67 24.438c13.763.492 26.098 4.72 34.928 11.245a13.069 13.069 0 0 1 9.217-3.789c7.245 0 13.118 5.88 13.118 13.133 0 5.655-3.57 10.475-8.577 12.325.095.886.144 1.781.144 2.684C111.567 91.041 88.494 107 60.03 107 31.57 107 8.496 91.04 8.496 71.354c0-1.028.063-2.047.186-3.053A13.136 13.136 0 0 1 1 56.345c0-7.253 5.873-13.133 13.118-13.133 3.391 0 6.482 1.289 8.81 3.403 8.499-6.096 20.108-10.104 33.06-10.799l6.03-25.984C63.2 4.74 68.15 1.459 73.294 2.358l14.719 2.571A9.355 9.355 0 0 1 95.638 1c5.175 0 9.37 4.2 9.37 9.38 0 5.181-4.195 9.381-9.37 9.381-4.866 0-8.866-3.713-9.326-8.463zM40 73a9 9 0 1 0 0-18 9 9 0 0 0 0 18zm40 0a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM37.665 88.21C42.41 93.05 50.988 96 60.378 96c9.587 0 18.32-3.076 22.996-8.085a2.328 2.328 0 0 0-.112-3.289 2.323 2.323 0 0 0-3.285.112c-3.703 3.967-11.203 6.609-19.599 6.609-8.232 0-15.613-2.54-19.394-6.396a2.323 2.323 0 0 0-3.288-.03c-.916.9-.93 2.372-.03 3.29z" stroke="#11D38F"/>
                     </g>
                   </svg></a></li>
-              <li class="social__link"><a href="https://t.me/solanaio">
+              <li class="social__link"><a href="https://t.me/solanaio" id="click-community-telegram-icon">
                   <svg width="117" height="103" viewBox="0 0 117 103" xmlns="http://www.w3.org/2000/svg">
                     <g fill="none" fill-rule="evenodd">
                       <path d="M3.86 45.727l18.22 5.49a10 10 0 0 0 8.078-1.029l47.86-29.081a2 2 0 0 1 2.406 3.168L40.96 61.242a1 1 0 0 0-.317.73v23.424a1 1 0 0 0 1.723.69L55.84 71.989a1 1 0 0 1 1.348-.09L77.37 88.052a8 8 0 0 0 12.826-4.595L105.794 9.52a7 7 0 0 0-9.418-7.957L3.546 38.176a4 4 0 0 0 .314 7.551z" stroke="#FFF"/>
@@ -84,7 +84,7 @@
                       <path d="M3.86 45.727l18.22 5.49a10 10 0 0 0 8.078-1.029l47.86-29.081a2 2 0 0 1 2.406 3.168L40.96 61.242a1 1 0 0 0-.317.73v23.424a1 1 0 0 0 1.723.69L55.84 71.989a1 1 0 0 1 1.348-.09L77.37 88.052a8 8 0 0 0 12.826-4.595L105.794 9.52a7 7 0 0 0-9.418-7.957L3.546 38.176a4 4 0 0 0 .314 7.551z" stroke="#11D38F"/>
                     </g>
                   </svg></a></li>
-              <li class="social__link"><a href="https://www.youtube.com/channel/UC9AdQPUe4BdVJ8M9X7wxHUA">
+              <li class="social__link"><a href="https://www.youtube.com/channel/UC9AdQPUe4BdVJ8M9X7wxHUA" id="click-community-youtube-icon">
                   <svg width="122" height="89" viewBox="0 0 122 89" xmlns="http://www.w3.org/2000/svg">
                     <g fill="none" fill-rule="evenodd">
                       <path d="M44 55V23l28 16-28 16zm61.764-42.29a13.41 13.41 0 0 0-9.46-9.472C87.96 1 54.5 1 54.5 1S21.04 1 12.696 3.238a13.41 13.41 0 0 0-9.46 9.473C1 21.067 1 38.5 1 38.5s0 17.433 2.236 25.789a13.408 13.408 0 0 0 9.46 9.472C21.04 76 54.5 76 54.5 76s33.46 0 41.804-2.24a13.408 13.408 0 0 0 9.46-9.471C108 55.933 108 38.499 108 38.499s0-17.432-2.236-25.788z" stroke="#FFF"/>
@@ -93,7 +93,7 @@
                       <path d="M44 55V23l28 16-28 16zm61.764-42.29a13.41 13.41 0 0 0-9.46-9.472C87.96 1 54.5 1 54.5 1S21.04 1 12.696 3.238a13.41 13.41 0 0 0-9.46 9.473C1 21.067 1 38.5 1 38.5s0 17.433 2.236 25.789a13.408 13.408 0 0 0 9.46 9.472C21.04 76 54.5 76 54.5 76s33.46 0 41.804-2.24a13.408 13.408 0 0 0 9.46-9.471C108 55.933 108 38.499 108 38.499s0-17.432-2.236-25.788z" stroke="#11D38F"/>
                     </g>
                   </svg></a></li>
-              <li class="social__link"><a href="https://github.com/solana-labs">
+              <li class="social__link"><a href="https://github.com/solana-labs" id="click-community-github-icon">
                   <svg width="118" height="117" viewBox="0 0 118 117" xmlns="http://www.w3.org/2000/svg">
                     <g fill="none" fill-rule="evenodd">
                       <path d="M54.388 1C24.906 1 1 24.822 1 54.21 1 77.72 16.297 97.665 37.51 104.7c2.668.493 3.648-1.154 3.648-2.56 0-1.268-.05-5.46-.073-9.906C26.233 95.454 23.1 85.957 23.1 85.957c-2.43-6.15-5.928-7.786-5.928-7.786-4.844-3.303.365-3.235.365-3.235 5.36.375 8.184 5.484 8.184 5.484 4.761 8.134 12.49 5.783 15.536 4.423.479-3.438 1.863-5.787 3.39-7.115-11.859-1.346-24.324-5.908-24.324-26.297 0-5.81 2.085-10.556 5.5-14.283-.554-1.34-2.381-6.752.518-14.081 0 0 4.483-1.43 14.685 5.454 4.259-1.18 8.826-1.77 13.363-1.79 4.537.02 9.108.61 13.374 1.79 10.19-6.885 14.667-5.454 14.667-5.454 2.906 7.329 1.078 12.74.524 14.081 3.423 3.727 5.494 8.473 5.494 14.283 0 20.437-12.49 24.937-24.377 26.254 1.914 1.652 3.62 4.89 3.62 9.854 0 7.119-.061 12.85-.061 14.603 0 1.416.96 3.075 3.667 2.552 21.201-7.044 36.479-26.982 36.479-50.484C107.775 24.822 83.872 1 54.388 1" stroke="#FFF"/>
@@ -102,7 +102,7 @@
                       <path d="M54.388 1C24.906 1 1 24.822 1 54.21 1 77.72 16.297 97.665 37.51 104.7c2.668.493 3.648-1.154 3.648-2.56 0-1.268-.05-5.46-.073-9.906C26.233 95.454 23.1 85.957 23.1 85.957c-2.43-6.15-5.928-7.786-5.928-7.786-4.844-3.303.365-3.235.365-3.235 5.36.375 8.184 5.484 8.184 5.484 4.761 8.134 12.49 5.783 15.536 4.423.479-3.438 1.863-5.787 3.39-7.115-11.859-1.346-24.324-5.908-24.324-26.297 0-5.81 2.085-10.556 5.5-14.283-.554-1.34-2.381-6.752.518-14.081 0 0 4.483-1.43 14.685 5.454 4.259-1.18 8.826-1.77 13.363-1.79 4.537.02 9.108.61 13.374 1.79 10.19-6.885 14.667-5.454 14.667-5.454 2.906 7.329 1.078 12.74.524 14.081 3.423 3.727 5.494 8.473 5.494 14.283 0 20.437-12.49 24.937-24.377 26.254 1.914 1.652 3.62 4.89 3.62 9.854 0 7.119-.061 12.85-.061 14.603 0 1.416.96 3.075 3.667 2.552 21.201-7.044 36.479-26.982 36.479-50.484C107.775 24.822 83.872 1 54.388 1" stroke="#11D38F"/>
                     </g>
                   </svg></a></li>
-              <li class="social__link"><a href="https://medium.com/solana-labs">
+              <li class="social__link"><a href="https://medium.com/solana-labs" id="click-community-medium-icon">
                   <svg width="122" height="98" viewBox="0 0 122 98" xmlns="http://www.w3.org/2000/svg">
                     <g fill="none" fill-rule="evenodd">
                       <path d="M13.688 18.136a4.074 4.074 0 0 0-1.349-3.457L2.35 2.778V1h31.02l23.978 52 21.08-52H108v1.778l-8.542 8.099a2.455 2.455 0 0 0-.95 2.37v59.506a2.455 2.455 0 0 0 .95 2.37l8.342 8.1V85H65.84v-1.778l8.641-8.296c.85-.84.85-1.086.85-2.37v-48.1L51.303 84.803h-3.247L20.082 24.457V64.9a5.54 5.54 0 0 0 1.549 4.642l11.24 13.482v1.777H1v-1.777l11.24-13.482a5.343 5.343 0 0 0 1.448-4.642V18.136z" stroke="#FFF"/>
@@ -192,7 +192,7 @@
         <div class="footer__inner">
           <div class="footer__menu">
             <div class="col"><a href="/">Home</a><a href="developers.html">Developers</a><a href="more.html">Learn More</a><a href="community.html">Community</a><a href="careers.html">Careers</a><a href="https://solana.com/solana-whitepaper.pdf">Whitepaper</a><a href="mailto:hello@solana.com">Contact Us</a></div>
-            <div class="col"><a href="https://t.me/solanaio">Telegram</a><a href="https://reddit.com/r/solana">Reddit</a><a href="https://twitter.com/solanalabs">Twitter</a><a href="https://medium.com/solana-labs">Medium</a><a href="https://github.com/solana-labs">Github</a><a href="https://www.youtube.com/channel/UC9AdQPUe4BdVJ8M9X7wxHUA">Youtube</a></div>
+            <div class="col"><a href="https://t.me/solanaio" id="click-footer-telegram">Telegram</a><a href="https://reddit.com/r/solana" id="click-footer-reddit">Reddit</a><a href="https://twitter.com/solanalabs" id="click-footer-twitter">Twitter</a><a href="https://medium.com/solana-labs" id="click-footer-medium">Medium</a><a href="https://github.com/solana-labs" id="click-footer-github">Github</a><a href="https://www.youtube.com/channel/UC9AdQPUe4BdVJ8M9X7wxHUA" id="click-footer-youtube">Youtube</a></div>
           </div>
           <div class="footer__desc">
             <div class="footer__title">Website disclaimer</div>
@@ -263,16 +263,62 @@
       })(document, window.mixpanel || []);
       mixpanel.init("a733ed40b877d30ff2a1a58b4e326cf0");
       mixpanel.track("Visited");
-      mixpanel.track_links("#hero-whitepaper", "Clicked Whitepaper in Hero");
-      mixpanel.track_links("#hero-reddit", "Clicked Reddit in Hero");
-      mixpanel.track_links("#click-whitepaper", "Clicked Whitepaper");
-      mixpanel.track_links("#click-telegram-icon", "Clicked Telegram", { 'location': 'Icon' });
-      mixpanel.track_links("#click-twitter", "Clicked Twitter", { 'location': 'Icon' });
-      mixpanel.track_links("#click-github", "Clicked Github", { 'location': 'Icon' });
-      mixpanel.track_links("#click-reddit", "Clicked Reddit", { 'location': 'Icon' });
-      mixpanel.track_links("#click-youtube", "Clicked Youtube", { 'location': 'Icon' });
-      mixpanel.track_links("#click-medium", "Clicked Medium", { 'location': 'Icon' });
-      mixpanel.track_links("#click-presale", "Clicked Presale Form", { 'location': 'Icon' });
+      
+      // cta's
+      // home
+      mixpanel.track_links("#hero-whitepaper", "Clicked whitepaper in hero");
+      // developers
+      mixpanel.track_links("#hero-contribute", "Clicked contribute in hero");
+      mixpanel.track_links("#join-develop", "Clicked develop");
+      mixpanel.track_links("#join-discord", "Clicked join discord");
+      mixpanel.track_links("#doc-arch-guide", "Clicked arch documentation");
+      mixpanel.track_links("#doc-js-api", "Clicked js api documentation");
+      mixpanel.track_links("#doc-ref-impl", "Clicked reference impl documentation");
+      mixpanel.track_links("#app-tic-tac-toe-source", "Clicked tic-tac-toe app source code");
+      mixpanel.track_links("#app-tic-tac-toe-try", "Clicked tic-tac-toe try");
+      mixpanel.track_links("#app-wallet-source", "Clicked web wallet app source code");
+      mixpanel.track_links("#app-wallet-try", "Clicked web wallet app try");
+      // community
+      mixpanel.track_links("#hero-events", "Clicked events in hero");
+      // careers
+      mixpanel.track_links("#hero-openings", "Clicked job openings in hero");
+      
+      // forms
+      mixpanel.track_forms(".mixPanelSubscribe", "Clicked subscribe");
+      mixpanel.track_forms('.mixPanelMining', 'Mining request submitted');
+      mixpanel.track_forms('.mixPanelPresale', 'Presale request submitted');
+      
+      // top menu
+      mixpanel.track_links("#click-menu-developers", "Clicked Developers");
+      mixpanel.track_links("#click-menu-careers", "Clicked Careers");
+      mixpanel.track_links("#click-menu-community", "Clicked Community");
+      mixpanel.track_links("#click-menu-whitepaper", "Clicked Whitepaper");
+      mixpanel.track_links("#click-presale", "Clicked Presale Form");
+      
+      // subscribe social links
+      mixpanel.track_links("#click-subscribe-telegram", "Clicked subscribe telegram");
+      mixpanel.track_links("#click-subscribe-twitter", "Clicked subscribe twitter");
+      mixpanel.track_links("#click-subscribe-github", "Clicked subscribe github");
+      mixpanel.track_links("#click-subscribe-medium", "Clicked subscribe medium");
+      
+      // footer social links
+      mixpanel.track_links("#click-footer-telegram", "Clicked footer telegram");
+      mixpanel.track_links("#click-footer-twitter", "Clicked footer twitter");
+      mixpanel.track_links("#click-footer-github", "Clicked footer github");
+      mixpanel.track_links("#click-footer-reddit", "Clicked footer reddit");
+      mixpanel.track_links("#click-footer-youtube", "Clicked footer youtube");
+      mixpanel.track_links("#click-footer-medium", "Clicked footer medium");
+      
+      // community page social links
+      mixpanel.track_links("#click-community-telegram-icon", "Clicked telegram icon on community page");
+      mixpanel.track_links("#click-twitter-telegram-icon", "Clicked twitter icon on community page");
+      mixpanel.track_links("#click-github-telegram-icon", "Clicked github icon on community page");
+      mixpanel.track_links("#click-reddit-telegram-icon", "Clicked reddit icon on community page");
+      mixpanel.track_links("#click-youtube-telegram-icon", "Clicked youtube icon on community page");
+      mixpanel.track_links("#click-medium-telegram-icon", "Clicked medium icon on community page");
+      
+      mixpanel.track_links("#click-partnership", "Clicked partnership");
+      
     </script>
     <script src="js/app.js"></script>
   </body>
